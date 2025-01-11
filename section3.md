@@ -1,1 +1,22 @@
 # section 3 - Describe fundamental principles of machine learning on Azure
+## Use Cases
+- Detecting fraudulent transactions;
+- Recognizing objects (vision);
+- Medicine
+
+## ML Progress
+1. Training data to train the model
+2. Which algorithm needs to be used
+3. Once model has been trained you can test/validate the model with some test data.
+
+### Partitions
+- Training data - 70%
+- Test Data - 30%
+### Data Set
+- should be relevant to the problem being solved
+- There should be enough data
+- The data should be free of errors
+
+Not all the transactions or the columns are needed to train your data model.
+- Clean the data
+- Filter the data.
