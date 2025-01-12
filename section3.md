@@ -20,3 +20,19 @@
 Not all the transactions or the columns are needed to train your data model.
 - Clean the data
 - Filter the data.
+
+### Binary Classification
+
+## Algorithms
+- Classification Algorithms
+- Linear Regression Algorithms
+- Regression Algorithms
+- Anomaly Detection Algorithms
+- Time Series Algorithms
+- Clustering Algorithms
+## ML Techniques
+- Supervised Learning
+- Unsupervised Learning
+- Reinforcement Learning
+## Azure ML
+### Lab - Creating a workspace
