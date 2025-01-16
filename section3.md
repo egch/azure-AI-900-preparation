@@ -46,4 +46,7 @@ Not all the transactions or the columns are needed to train your data model.
 ### Launch Studio
 ![alt text](images/LaunchStudio.png)
 ### Adult Census income Binary Classification
-- section 32
+
+![adult-income-binary-pipeline](images/adult-income-binary-pipeline.png)
+
+section 33
