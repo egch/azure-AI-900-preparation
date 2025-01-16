@@ -36,6 +36,14 @@ Not all the transactions or the columns are needed to train your data model.
 - Reinforcement Learning
 ## Azure ML
 ### Lab - Creating a workspace
-Lanuch Studio
+#### Elements
+- storage account - to store the log of your job
+- Azure Container Registry - for docker containers
+- Azure Application Insights - diagnostic information
+- Key Vaults - to store secrets
+
+
+### Launch Studio
 ![alt text](images/LaunchStudio.png)
-- Adult Census income Binary Classification
+### Adult Census income Binary Classification
+- section 32
