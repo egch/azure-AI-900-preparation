@@ -49,4 +49,9 @@ Not all the transactions or the columns are needed to train your data model.
 
 ![adult-income-binary-pipeline](images/adult-income-binary-pipeline.png)
 
-section 33
+confusion matrix
+WIth the 30% of the test data we do not use use income column 
+
+![confusion matrix](images/confusion-matrix.png)
+
+(TP + TN) / ALL
