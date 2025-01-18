@@ -1,0 +1,374 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1",
+        "title": "endpoint2",
+        "description": ""
+    },
+    "schemes": [
+        "http"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/api/v1/service/endpoint2/swagger.json": {
+            "get": {
+                "summary": "Get swagger API document for the web service",
+                "operationId": "getSwaggerDocument",
+                "responses": {
+                    "200": {
+                        "description": "Swagger API document for this service"
+                    }
+                }
+            }
+        },
+        "/api/v1/service/endpoint2/": {
+            "get": {
+                "description": "Simple health check endpoint to ensure the service is up at any given point.",
+                "operationId": "ServiceHealthCheck",
+                "responses": {
+                    "200": {
+                        "description": "If service is up and running, this response will be returned with the content \\'Healthy\\'",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "examples": {
+                            "application/json": "Healthy"
+                        }
+                    },
+                    "default": {
+                        "description": "The service failed to execute due to an error.",
+                        "schema": {
+                            "$ref": "#/definitions/ErrorResponse"
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "Bearer": []
+                    }
+                ]
+            }
+        },
+        "/api/v1/service/endpoint2/score": {
+            "post": {
+                "description": "Run web service\\'s model and get the prediction output",
+                "operationId": "RunMLService",
+                "parameters": [
+                    {
+                        "name": "serviceInputPayload",
+                        "in": "body",
+                        "description": "The input payload for executing the real-time machine learning service.",
+                        "schema": {
+                            "$ref": "#/definitions/ExecutionRequest"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "The service processed the input correctly and provided a result prediction, if applicable.",
+                        "schema": {
+                            "$ref": "#/definitions/ExecutionResults"
+                        }
+                    },
+                    "default": {
+                        "description": "The service failed to execute due to an error.",
+                        "schema": {
+                            "$ref": "#/definitions/ErrorResponse"
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "Bearer": []
+                    }
+                ]
+            }
+        }
+    },
+    "definitions": {
+        "ExecutionRequest": {
+            "title": "Execution request",
+            "properties": {
+                "Inputs": {
+                    "$ref": "#/definitions/ExecutionInputs"
+                },
+                "GlobalParameters": {
+                    "$ref": "#/definitions/GlobalParameters"
+                }
+            },
+            "example": {
+                "Inputs": {
+                    "WebServiceInput0": [
+                        {
+                            "age": 39,
+                            "workclass": "State-gov",
+                            "fnlwgt": 77516,
+                            "education": "Bachelors",
+                            "education-num": 13,
+                            "marital-status": "Never-married",
+                            "occupation": "Adm-clerical",
+                            "relationship": "Not-in-family",
+                            "race": "White",
+                            "sex": "Male",
+                            "capital-gain": 2174,
+                            "capital-loss": 0,
+                            "hours-per-week": 40,
+                            "native-country": "United-States",
+                            "income": "<=50K"
+                        },
+                        {
+                            "age": 50,
+                            "workclass": "Self-emp-not-inc",
+                            "fnlwgt": 83311,
+                            "education": "Bachelors",
+                            "education-num": 13,
+                            "marital-status": "Married-civ-spouse",
+                            "occupation": "Exec-managerial",
+                            "relationship": "Husband",
+                            "race": "White",
+                            "sex": "Male",
+                            "capital-gain": 0,
+                            "capital-loss": 0,
+                            "hours-per-week": 13,
+                            "native-country": "United-States",
+                            "income": "<=50K"
+                        },
+                        {
+                            "age": 38,
+                            "workclass": "Private",
+                            "fnlwgt": 215646,
+                            "education": "HS-grad",
+                            "education-num": 9,
+                            "marital-status": "Divorced",
+                            "occupation": "Handlers-cleaners",
+                            "relationship": "Not-in-family",
+                            "race": "White",
+                            "sex": "Male",
+                            "capital-gain": 0,
+                            "capital-loss": 0,
+                            "hours-per-week": 40,
+                            "native-country": "United-States",
+                            "income": "<=50K"
+                        }
+                    ]
+                },
+                "GlobalParameters": {}
+            }
+        },
+        "ExecutionResults": {
+            "title": "Execution Results",
+            "properties": {
+                "Results": {
+                    "$ref": "#/definitions/ExecutionOutputs"
+                }
+            }
+        },
+        "ErrorResponse": {
+            "properties": {
+                "status_code": {
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "message": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "GlobalParameters": {
+            "title": "Global parameters definition",
+            "properties": {},
+            "type": "object"
+        },
+        "ExecutionInputs": {
+            "title": "Execution inputs definition",
+            "properties": {
+                "WebServiceInput0": {
+                    "items": {
+                        "$ref": "#/definitions/WebServiceInput0Item"
+                    },
+                    "type": "array"
+                }
+            },
+            "type": "object"
+        },
+        "ExecutionOutputs": {
+            "title": "Execution outputs definition",
+            "properties": {
+                "WebServiceOutput0": {
+                    "items": {
+                        "$ref": "#/definitions/WebServiceOutput0Item"
+                    },
+                    "type": "array"
+                }
+            },
+            "type": "object"
+        },
+        "WebServiceInput0Item": {
+            "required": [
+                "age",
+                "workclass",
+                "fnlwgt",
+                "education",
+                "education-num",
+                "marital-status",
+                "occupation",
+                "relationship",
+                "race",
+                "sex",
+                "capital-gain",
+                "capital-loss",
+                "hours-per-week",
+                "native-country",
+                "income"
+            ],
+            "properties": {
+                "age": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "workclass": {
+                    "type": "string"
+                },
+                "fnlwgt": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "education": {
+                    "type": "string"
+                },
+                "education-num": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "marital-status": {
+                    "type": "string"
+                },
+                "occupation": {
+                    "type": "string"
+                },
+                "relationship": {
+                    "type": "string"
+                },
+                "race": {
+                    "type": "string"
+                },
+                "sex": {
+                    "type": "string"
+                },
+                "capital-gain": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "capital-loss": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "hours-per-week": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "native-country": {
+                    "type": "string"
+                },
+                "income": {
+                    "type": "string"
+                }
+            }
+        },
+        "WebServiceOutput0Item": {
+            "required": [
+                "age",
+                "workclass",
+                "fnlwgt",
+                "education",
+                "education-num",
+                "marital-status",
+                "occupation",
+                "relationship",
+                "race",
+                "sex",
+                "capital-gain",
+                "capital-loss",
+                "hours-per-week",
+                "native-country",
+                "income",
+                "Scored Labels",
+                "Scored Probabilities"
+            ],
+            "properties": {
+                "age": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "workclass": {
+                    "type": "string"
+                },
+                "fnlwgt": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "education": {
+                    "type": "string"
+                },
+                "education-num": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "marital-status": {
+                    "type": "string"
+                },
+                "occupation": {
+                    "type": "string"
+                },
+                "relationship": {
+                    "type": "string"
+                },
+                "race": {
+                    "type": "string"
+                },
+                "sex": {
+                    "type": "string"
+                },
+                "capital-gain": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "capital-loss": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "hours-per-week": {
+                    "type": "integer",
+                    "format": "int64"
+                },
+                "native-country": {
+                    "type": "string"
+                },
+                "income": {
+                    "type": "string"
+                },
+                "Scored Labels": {
+                    "type": "string"
+                },
+                "Scored Probabilities": {
+                    "type": "number",
+                    "format": "double"
+                }
+            }
+        }
+    },
+    "securityDefinitions": {
+        "Bearer": {
+            "type": "apiKey",
+            "description": "For example: Bearer abc123",
+            "name": "Authorization",
+            "in": "header"
+        }
+    }
+}

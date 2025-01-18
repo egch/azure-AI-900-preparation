@@ -55,3 +55,5 @@ WIth the 30% of the test data we do not use use income column
 ![confusion matrix](images/confusion-matrix.png)
 
 (TP + TN) / ALL
+
+![endpoint](images/endpoint.png)
