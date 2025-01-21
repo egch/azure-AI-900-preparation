@@ -8,3 +8,5 @@ This repository captures my journey studying for the Microsoft Azure AI Fundamen
 ## Resources
 - [Udemy Course by A. Rodrigues](https://www.udemy.com/course/microsoft-azure-beginners-guide/)
 - [ML Algorithms](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-are-machine-learning-algorithms)
+- https://learn.microsoft.com/en-us/azure/machine-learning/component-reference/evaluate-model?view=azureml-api-2
+- 

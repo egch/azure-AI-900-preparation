@@ -1,0 +1,19 @@
+{"Inputs": {"WebServiceInput0": [
+    {  "age": 39,
+      "workclass": "State-gov",
+      "fnlwgt": 77516,
+      "education": "Bachelors",
+      "education-num": 13,
+      "marital-status": "Never-married",
+      "occupation": "Adm-clerical",
+      "relationship": "Not-in-family",
+      "race": "White",
+      "sex": "Male",
+      "capital-gain": 0,
+      "capital-loss": 0,
+      "hours-per-week": 60,
+      "native-country": "United-States",
+      "income": ""
+        }
+      ]
+}}
