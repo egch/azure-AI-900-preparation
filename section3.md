@@ -57,3 +57,22 @@ WIth the 30% of the test data we do not use use income column
 (TP + TN) / ALL
 
 ![endpoint](images/endpoint.png)
+
+## Summary
+- Regression
+- Binary Classification
+- Clustering
+- Features (training data)
+- Accuracy
+- Precision
+- Recall
+- F1Score
+- AUC
+- Mean absolute error
+- Root mean squared error
+- relative absolute error
+- relative square error
+- coefficient of determination
+- pipeline
+- Inference or batch pipeline
+- Automated ML
