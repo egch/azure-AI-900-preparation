@@ -8,6 +8,11 @@ https://egch-vision.cognitiveservices.azure.com/computervision/imageanalysis:ana
 
 ## Custom Vision
 ## AI Face service
-54
+
+
+## Document Intelligence
+https://documentintelligence.ai.azure.com/studio/
+
+## Azure AI Foundry
 ## Links
 [Azure Portal Vision Cognitive](https://portal.vision.cognitive.azure.com/gallery/featured)
