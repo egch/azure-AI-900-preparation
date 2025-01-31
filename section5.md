@@ -2,3 +2,7 @@
 ## Azure Language Service
 https://language.cognitive.azure.com/
 ## Azure AI Translator
+## Azure Speech
+Speech Studio
+
+TODO - clarify the api to be used
