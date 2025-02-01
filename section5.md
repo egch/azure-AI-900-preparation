@@ -6,3 +6,6 @@ https://language.cognitive.azure.com/
 Speech Studio
 
 TODO - clarify the api to be used
+
+## Azure AI Language
+### Search Service
