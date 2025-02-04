@@ -14,5 +14,6 @@ https://egch-vision.cognitiveservices.azure.com/computervision/imageanalysis:ana
 https://documentintelligence.ai.azure.com/studio/
 
 ## Azure AI Foundry
+https://learn.microsoft.com/en-us/azure/ai-studio/what-is-ai-studio
 ## Links
 [Azure Portal Vision Cognitive](https://portal.vision.cognitive.azure.com/gallery/featured)
