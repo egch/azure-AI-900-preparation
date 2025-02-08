@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "8d037c09-a068-44ae-8637-58c2a1782706",
+		"name": "AI-900",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "4623259"
+	},
+	"item": [
+		{
+			"name": "https://egch-computervision.cognitiveservices.azure.com/computervision/imageanalysis:analyze?api-version=2023-04-01-preview&features=tags",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"value": "AB5UH6entXYEhyOsu8fPQ2FE3YEPeTUS2zmDhHbzHDK9H4YMvDz5JQQJ99BBACYeBjFXJ3w3AAAFACOGdwzT",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/octet-stream",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "file",
+					"file": {
+						"src": "/Users/enrico/Desktop/pic.jpeg"
+					}
+				},
+				"url": {
+					"raw": "https://egch-computervision.cognitiveservices.azure.com/computervision/imageanalysis:analyze?api-version=2023-04-01-preview&features=tags",
+					"protocol": "https",
+					"host": [
+						"egch-computervision",
+						"cognitiveservices",
+						"azure",
+						"com"
+					],
+					"path": [
+						"computervision",
+						"imageanalysis:analyze"
+					],
+					"query": [
+						{
+							"key": "api-version",
+							"value": "2023-04-01-preview"
+						},
+						{
+							"key": "features",
+							"value": "tags"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
