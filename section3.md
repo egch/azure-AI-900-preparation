@@ -44,22 +44,22 @@ Not all the transactions or the columns are needed to train your data model.
 
 
 ### Launch Studio
-<img src="images/LaunchStudio.png" alt="Launch Studio" width="40%">
+<img src="images/s3/LaunchStudio.png" alt="Launch Studio" width="40%">
 
 ### Adult Census income Binary Classification
 
-<img src="images/adult-income-binary-pipeline.png" alt="Adult Income Binary Pipeline" width="90%">
+<img src="images/s3/adult-income-binary-pipeline.png" alt="Adult Income Binary Pipeline" width="90%">
 
 
 confusion matrix
 WIth the 30% of the test data we do not use use income column 
 
-<img src="images/confusion-matrix.png" alt="Confusion Matrix" width="50%">
+<img src="images/s3/confusion-matrix.png" alt="Confusion Matrix" width="50%">
 
 
 (TP + TN) / ALL
 
-![endpoint](images/endpoint.png)
+![endpoint](images/s3/endpoint.png)
 
 ## Summary
 - Regression
