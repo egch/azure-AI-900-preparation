@@ -53,6 +53,8 @@ Headers
 <img src="images/s4/postman-analyze-image-headers.png" alt="postman-analyze-image-headers" width="70%">
 
 ## Custom Vision
+Create from Azure Marketplace.
+https://www.customvision.ai/
 ## AI Face service
 
 
