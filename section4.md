@@ -55,8 +55,23 @@ Headers
 ## Custom Vision
 Create from Azure Marketplace.
 https://www.customvision.ai/
-## AI Face service
+### Project Cats recognition
+<img src="images/s4/cats.png" alt="cats" width="70%">
 
+- add
+- train
+- quick train
+
+<img src="images/s4/cats-train.png" alt="cats-train" width="70%">
+
+Quick test (tiger)
+
+<img src="images/s4/cats-tiger.png" alt="cats-train" width="70%">
+
+## Azure AI Face service
+https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview-identity
+
+Create Face from the marketplace.
 
 ## Document Intelligence
 https://documentintelligence.ai.azure.com/studio/
