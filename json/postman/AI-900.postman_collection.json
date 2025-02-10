@@ -1,13 +1,13 @@
 {
 	"info": {
-		"_postman_id": "8d037c09-a068-44ae-8637-58c2a1782706",
+		"_postman_id": "41eb47a2-ef05-4a0b-8c93-18757dc3dcd6",
 		"name": "AI-900",
-		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "4623259"
 	},
 	"item": [
 		{
-			"name": "https://egch-computervision.cognitiveservices.azure.com/computervision/imageanalysis:analyze?api-version=2023-04-01-preview&features=tags",
+			"name": "imageanalysis",
 			"request": {
 				"auth": {
 					"type": "noauth"
@@ -28,7 +28,7 @@
 				"body": {
 					"mode": "file",
 					"file": {
-						"src": "/Users/enrico/Desktop/pic.jpeg"
+						"src": "oldhz7bmY/Screenshot 2024-05-01 193920.png"
 					}
 				},
 				"url": {
@@ -52,6 +52,71 @@
 						{
 							"key": "features",
 							"value": "tags"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "face",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"value": "Fky9GjlbHlXYxA9bEhMje1bMc1b9cvcBfOie3ysUjuea7jtNh1PFJQQJ99BBACYeBjFXJ3w3AAAKACOG72ZN",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": " application/octet-stream",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "file",
+					"file": {
+						"src": "U8Tlg6XuY/enrico.jpg"
+					}
+				},
+				"url": {
+					"raw": "https://egch-face.cognitiveservices.azure.com/face/v1.2-preview.1/detect?_overload=detect&detectionModel=detection_01&recognitionModel=recognition_03&returnFaceAttributes=glasses,headPose,occlusion,accessories,blur,exposure,noise,qualityForRecognition&returnFaceLandmarks=True",
+					"protocol": "https",
+					"host": [
+						"egch-face",
+						"cognitiveservices",
+						"azure",
+						"com"
+					],
+					"path": [
+						"face",
+						"v1.2-preview.1",
+						"detect"
+					],
+					"query": [
+						{
+							"key": "_overload",
+							"value": "detect"
+						},
+						{
+							"key": "detectionModel",
+							"value": "detection_01"
+						},
+						{
+							"key": "recognitionModel",
+							"value": "recognition_03"
+						},
+						{
+							"key": "returnFaceAttributes",
+							"value": "glasses,headPose,occlusion,accessories,blur,exposure,noise,qualityForRecognition"
+						},
+						{
+							"key": "returnFaceLandmarks",
+							"value": "True"
 						}
 					]
 				}
