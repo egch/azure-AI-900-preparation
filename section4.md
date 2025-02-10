@@ -56,6 +56,15 @@ Headers
 Create from Azure Marketplace.
 https://www.customvision.ai/
 ## AI Face service
+- Marketplace create Face
+- Vision Studio / Face / Detect faces in an image
+
+<img src="images/s4/detect-face.png" alt="detect face" width="70%">
+
+### Face detection via postman
+https://learn.microsoft.com/en-us/rest/api/face/face-detection-operations/detect?view=rest-face-v1.2-preview.1&tabs=HTTP
+
+<img src="images/s4/face-postman.png" alt="postman face" width="70%">
 
 
 ## Document Intelligence
