@@ -85,9 +85,20 @@ https://learn.microsoft.com/en-us/rest/api/face/face-detection-operations/detect
 
 
 ## Document Intelligence
-https://documentintelligence.ai.azure.com/studio/
+[Document Intelligence Studio](https://documentintelligence.ai.azure.com/studio/)
+### Invoices
+Studio / Invoices
+
+<img src="images/s4/invoices.png" alt="invoices" width="70%">
 
 ## Azure AI Foundry
-https://learn.microsoft.com/en-us/azure/ai-studio/what-is-ai-studio
+[Azure AI Foundry docs](https://learn.microsoft.com/en-us/azure/ai-studio/what-is-ai-studio)
+
+- MarketPlace / Azure AI Foundry
+
+- Launch Azure AI Foundry
+
+- Create Project
+
 ## Links
 [Azure Portal Vision Cognitive](https://portal.vision.cognitive.azure.com/gallery/featured)
