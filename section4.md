@@ -100,5 +100,14 @@ Studio / Invoices
 
 - Create Project
 
+### Project - Common image detection
+AI Services / Vision + Document / Image / Common image detection
+
+From here we have the same interfaces seen with Visual Studio.
+
+<img src="images/s4/foundry-detect-image.png" alt="detect image" width="70%">
+  
+### Project - Invoices
+AI Services / Vision + Document / Document / Invoices
 ## Links
 [Azure Portal Vision Cognitive](https://portal.vision.cognitive.azure.com/gallery/featured)
