@@ -27,6 +27,20 @@ Original sentence: _"This hotel is a great place. The staff were friendly and he
 <img src="images\s5\text-extraction.png" alt="Text extraction" width="75%">
 
 #### Postman
+1. Ocp-Apim-Subscription-Key
+
+2. Content-Type - application/json
+
+
+<img src="images\s5\postman-text-extraction.png" alt="postman - Text extraction" width="75%">
+
+### Language Detection
+Language Studio / Classify Text / Detect Language
+
+<img src="images\s5\language-detection.png" alt="Lnaguage Detection" width="50%">
+
+
+
 
 ## Azure AI Translator
 ## Azure Speech
