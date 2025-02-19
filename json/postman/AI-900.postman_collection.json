@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "6bc6fefa-70cb-46d8-8b92-9ec90af00c29",
+		"_postman_id": "f068c320-7c3f-4139-a919-1955ae9f8ed8",
 		"name": "AI-900",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "4623259"
@@ -145,6 +145,120 @@
 				"body": {
 					"mode": "raw",
 					"raw": "{\r\n    \"kind\": \"KeyPhraseExtraction\",\r\n    \"parameters\": {\r\n        \"modelVersion\": \"latest\"\r\n    },\r\n    \"analysisInput\":{\r\n        \"documents\":[\r\n            {\r\n            \"id\": \"1\",\r\n \t    \"language\":\"en\", \r\n            \"text\": \"The hotel is a great place. The staff were very friendly. The service was amazing\"\r\n            },\r\n            {\r\n            \"id\": \"2\",\r\n            \"language\":\"en\",  \t\t\r\n            \"text\": \"We didn't enjoy our stay. The service was not up to the mark\"\r\n            },\r\n            {\r\n            \"id\": \"3\",\r\n            \"language\":\"en\", \t\t\r\n            \"text\": \"The hotel is in Chicago. The room had a TV. The hotel had a pool\"\r\n            }\r\n        ]\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://egch-language.cognitiveservices.azure.com/language/:analyze-text?api-version=2022-05-01",
+					"protocol": "https",
+					"host": [
+						"egch-language",
+						"cognitiveservices",
+						"azure",
+						"com"
+					],
+					"path": [
+						"language",
+						":analyze-text"
+					],
+					"query": [
+						{
+							"key": "api-version",
+							"value": "2022-05-01"
+						}
+					],
+					"variable": [
+						{
+							"key": "analyze-text",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "language-detection",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"value": "GDfvvHjAs7hmDEJd4zAkERg7x4vrzq7QCjSpxJU64TdFaiWIg5waJQQJ99BBACYeBjFXJ3w3AAAaACOGRXYd",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"kind\": \"LanguageDetection\",\r\n    \"parameters\": {\r\n        \"modelVersion\": \"latest\"\r\n    },\r\n    \"analysisInput\":{\r\n        \"documents\":[\r\n            {\r\n            \"id\": \"1\",\r\n            \"text\": \"El hotel es un gran lugar. El personal fue muy amable. el servicio fue increible\"\r\n            },\r\n            {\r\n            \"id\": \"2\",\r\n            \"text\": \"Het hotel is een geweldige plek. Het personeel was erg vriendelijk. De service was geweldig\"\r\n            },\r\n            {\r\n            \"id\": \"3\",\r\n            \"text\": \"Hotellet er et fantastisk sted. Personalet var meget venligt. Tjenesten var fantastisk\"\r\n            }\r\n        ]\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://egch-language.cognitiveservices.azure.com/language/:analyze-text?api-version=2022-05-01",
+					"protocol": "https",
+					"host": [
+						"egch-language",
+						"cognitiveservices",
+						"azure",
+						"com"
+					],
+					"path": [
+						"language",
+						":analyze-text"
+					],
+					"query": [
+						{
+							"key": "api-version",
+							"value": "2022-05-01"
+						}
+					],
+					"variable": [
+						{
+							"key": "analyze-text",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Sentiment-Analysis",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Ocp-Apim-Subscription-Key",
+						"value": "GDfvvHjAs7hmDEJd4zAkERg7x4vrzq7QCjSpxJU64TdFaiWIg5waJQQJ99BBACYeBjFXJ3w3AAAaACOGRXYd",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"kind\": \"SentimentAnalysis\",\r\n    \"parameters\": {\r\n        \"modelVersion\": \"latest\"\r\n    },\r\n    \"analysisInput\":{\r\n        \"documents\":[\r\n            {\r\n            \"id\": \"1\",\r\n \t    \"language\":\"en\", \r\n            \"text\": \"The hotel is a great place. The staff were very friendly. The service was amazing\"\r\n            },\r\n            {\r\n            \"id\": \"2\",\r\n            \"language\":\"en\",  \t\t\r\n            \"text\": \"We didn't enjoy our stay. The service was not up to the mark\"\r\n            },\r\n            {\r\n            \"id\": \"3\",\r\n            \"language\":\"en\", \t\t\r\n            \"text\": \"The hotel is in Chicago. The room had a TV. The hotel had a pool\"\r\n            }\r\n        ]\r\n    }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"

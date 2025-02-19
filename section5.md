@@ -5,7 +5,7 @@
  - Sentiment Analysis
  - Translation
  - Speech Recognition
- - Speech Syntesis
+ - Speech Synthesis
 
 
 ## Azure AI Language Service
@@ -37,7 +37,20 @@ Original sentence: _"This hotel is a great place. The staff were friendly and he
 ### Language Detection
 Language Studio / Classify Text / Detect Language
 
-<img src="images\s5\language-detection.png" alt="Lnaguage Detection" width="50%">
+<img src="images\s5\language-detection.png" alt="Language Detection" width="50%">
+
+#### Postman
+<img src="images/s5/postman-language-detection.png" alt="postman - Language Detection" width="50%">
+
+### Sentiment Analysis
+Language Studio / Classify Text / Analyze sentiment and opinions
+
+<img src="images/s5/sentiment-analysis.png" alt="Sentiment Analysis" width="50%">
+
+#### Postman
+<img src="images/s5/postman-sentiment-analysis.png" alt="Postman Sentiment Analysis" width="50%">
+
+### Named Entity Recognition
 
 
 
