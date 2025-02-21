@@ -51,11 +51,20 @@ Language Studio / Classify Text / Analyze sentiment and opinions
 <img src="images/s5/postman-sentiment-analysis.png" alt="Postman Sentiment Analysis" width="50%">
 
 ### Named Entity Recognition
+Language Studio / Extract Information/ Extract named entities
+<img src="images/s5/named-entities.png" alt="named entities" width="50%">
 
-
+#### Postman
+<img src="images/s5/postman-named-entities.png" alt="Postman - named entities" width="50%">
 
 
 ## Azure AI Translator
+Marketplace / create Translator   
+[docs translator](https://learn.microsoft.com/en-us/azure/ai-services/translator/reference/v3-0-reference)
+
+
+TODO: add postman - section 76
+
 ## Azure Speech
 Speech Studio
 
