@@ -2,8 +2,14 @@
 ## Large Language Models - LLM
 ### Chat GPT
 ### Github Copilot
-### OpenAI platform
-https://platform.openai.com/docs/overview
+## OpenAI platform
+[OpenAI developer platform](https://platform.openai.com/docs/overview)
+### Signup
+### Tokens
+
+
+
+
 ## GPT - System messages
 ## GPT - Using the audio feature
 ## Azure OpenAI service
