@@ -30,7 +30,11 @@ _Temperature_
 <img src="images/s6/audio-style.png" alt="type of voice" width="50%">
 
 
-[Generated wav](audio/chat-playground-audio.wav)
+<audio controls>
+  <source src="audio/chat-playground-audio.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
 
 
 
