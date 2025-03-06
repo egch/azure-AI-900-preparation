@@ -27,7 +27,7 @@ _Temperature_
 ### Audio Features
 <img src="images/s6/audio-feature.png" alt="audio feature" width="75%">
 
-<img src="images/s6/audio-style.png" alt="type of voice" width="75%">
+<img src="images/s6/audio-style.png" alt="type of voice" width="50%">
 
 
 [Generated wav](audio/chat-playground-audio.wav)
