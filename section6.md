@@ -23,7 +23,21 @@ _Temperature_
 
 
 
-## GPT - System messages
+## GPT - System Messages
+### Audio Features
+<img src="images/s6/audio-feature.png" alt="audio feature" width="75%">
+
+<img src="images/s6/audio-style.png" alt="type of voice" width="75%">
+
+
+[Generated wav](audio/chat-playground-audio.wav)
+
+
+
+
+
+
+
 ## GPT - Using the audio feature
 ## Azure OpenAI service
 https://learn.microsoft.com/en-us/azure/ai-services/openai/overview
