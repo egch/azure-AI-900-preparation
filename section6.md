@@ -4,9 +4,22 @@
 ### Github Copilot
 ## OpenAI platform
 [OpenAI developer platform](https://platform.openai.com/docs/overview)
+
+
 ### Signup
 ### Tokens
+[Tokenizer](https://platform.openai.com/tokenizer)
 
+When it's down to costs you need to consider the total number of tokens both input and output.
+
+#### Parameters
+_Max tokens_
+
+<img src="images/s6/max-tokens.png" alt="max number of tokens" >
+
+_Temperature_
+
+<img src="images/s6/temperature.png" alt="temperature" width="80%">
 
 
 
