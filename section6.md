@@ -24,7 +24,8 @@ _Temperature_
 
 
 ## GPT - System Messages
-### Audio Features
+
+## GPT - Using the audio feature
 <img src="images/s6/audio-feature.png" alt="audio feature" width="75%">
 
 <img src="images/s6/audio-style.png" alt="type of voice" width="50%">
@@ -35,15 +36,12 @@ _Temperature_
   Your browser does not support the audio element.
 </audio>
 
-
-
-
-
-
-
-
-## GPT - Using the audio feature
 ## Azure OpenAI service
-https://learn.microsoft.com/en-us/azure/ai-services/openai/overview
+Create Azure AI Foundry from the marketplace.
+
+
+[Azure OpenaAI service](https://learn.microsoft.com/en-us/azure/ai-services/)
+
+openai/overview
 
 Go to Azure AI Foundry portal
