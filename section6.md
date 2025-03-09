@@ -37,11 +37,21 @@ _Temperature_
 </audio>
 
 ## Azure OpenAI service
-Create Azure AI Foundry from the marketplace.
+Create Azure AI Foundry from the Azure marketplace.
 
 
 [Azure OpenaAI service](https://learn.microsoft.com/en-us/azure/ai-services/)
 
-openai/overview
 
-Go to Azure AI Foundry portal
+- MarketPlace: Create Azure AI Foundry
+- ai-services (Azure AI Services)
+- Go to Azure AI Foundry portal
+- Model Catalog
+- gpt-4o-mini
+- Create Project (not clear why it creates new resources)
+- Deploy
+
+
+Review these steps.
+
+### Image Generation
