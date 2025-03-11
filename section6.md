@@ -55,3 +55,5 @@ Create Azure AI Foundry from the Azure marketplace.
 Review these steps.
 
 ### Image Generation
+---
+[Home](README.md)

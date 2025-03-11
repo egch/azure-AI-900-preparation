@@ -30,3 +30,6 @@
 [Reliability and Safety](https://infusedinnovations.com/blog/responsible-ai-reliability-safety#:~:text=What%20is%20Reliability%20%26%20Safety%20in,the%20face%20of%20unexpected%20situations.)
 
 [Microsoft Responsible AI Principles](https://techcommunity.microsoft.com/discussions/azure-ai-services/microsoft-responsible-ai-principles/4037307)
+
+---
+[Home](README.md)

@@ -79,3 +79,6 @@ WIth the 30% of the test data we do not use use income column
 - pipeline
 - Inference or batch pipeline
 - Automated ML
+
+---
+[Home](README.md)

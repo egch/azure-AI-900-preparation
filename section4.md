@@ -111,3 +111,6 @@ From here we have the same interfaces seen with Visual Studio.
 AI Services / Vision + Document / Document / Invoices
 ## Links
 [Azure Portal Vision Cognitive](https://portal.vision.cognitive.azure.com/gallery/featured)
+
+---
+[Home](README.md)

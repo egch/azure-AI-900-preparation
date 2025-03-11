@@ -72,3 +72,5 @@ TODO - clarify the api to be used
 
 ## Azure AI Language
 ### Search Service
+---
+[Home](README.md)
