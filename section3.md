@@ -20,6 +20,10 @@
 Not all the transactions or the columns are needed to train your data model.
 - Clean the data
 - Filter the data.
+#### Example - Prediction price of Houses
+<img src="images/s3/house-price-prediction.png" alt="House Price prediction" width="80%">
+
+
 
 ### Binary Classification
 
@@ -79,6 +83,9 @@ WIth the 30% of the test data we do not use use income column
 - pipeline
 - Inference or batch pipeline
 - Automated ML
+## References
+[How To Use ML To Solve House Price Prediction Problem](https://medium.com/@vivekpadia70/understanding-how-airbnb-uses-machine-learning-to-solve-house-price-prediction-problem-afd5c6c9ec32)
+
 
 ---
 [Home](README.md)

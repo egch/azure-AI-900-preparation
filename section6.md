@@ -40,7 +40,7 @@ _Temperature_
 Create Azure AI Foundry from the Azure marketplace.
 
 
-[Azure OpenaAI service](https://learn.microsoft.com/en-us/azure/ai-services/)
+[Azure OpenAI service](https://learn.microsoft.com/en-us/azure/ai-services/)
 
 
 - MarketPlace: Create Azure AI Foundry
