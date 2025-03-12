@@ -4,7 +4,7 @@
 - Recognizing objects (vision);
 - Medicine
 
-## ML Progress
+## ML - Machine Learning
 1. Training data to train the model
 2. Which algorithm needs to be used
 3. Once model has been trained you can test/validate the model with some test data.
@@ -21,11 +21,7 @@ Not all the transactions or the columns are needed to train your data model.
 - Clean the data
 - Filter the data.
 #### Example - Prediction price of Houses
-<img src="images/s3/house-price-prediction.png" alt="House Price prediction" width="80%">
-
-
-
-### Binary Classification
+<img src="images/s3/house-price-prediction.png" alt="House Price prediction" width="80%">  
 
 ## Algorithms
 - Classification Algorithms
@@ -34,12 +30,26 @@ Not all the transactions or the columns are needed to train your data model.
 - Anomaly Detection Algorithms
 - Time Series Algorithms
 - Clustering Algorithms
-## ML Techniques
-- Supervised Learning
-- Unsupervised Learning
-- Reinforcement Learning
+  
+
+[Machine learning algorithms](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-are-machine-learning-algorithms)
+
+### Learning Types
+- Supervised Learning - Task Driven (Predict next value)
+- Unsupervised Learning - Data Driven (Identify Clusters)
+- Reinforcement Learning - Learn from mistakes
+
 ## Azure ML
+Azure ML Studio
 ### Lab - Creating a workspace
+- marketplace
+- Azure Machine Learning
+- Create
+
+<img src="images/s3/azure-machine-learning.png" alt="Azure Machine Learning" width="70%">
+
+
+
 #### Elements
 - storage account - to store the log of your job
 - Azure Container Registry - for docker containers
