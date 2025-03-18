@@ -49,7 +49,6 @@ Azure ML Studio
 <img src="images/s3/azure-machine-learning.png" alt="Azure Machine Learning" width="70%">
 
 
-
 #### Elements
 - storage account - to store the log of your job
 - Azure Container Registry - for docker containers
@@ -65,19 +64,30 @@ Azure ML Studio
 Pipeline: A ML pipeline is a workflow that is used to execute a ML task.
 
 
-
-
 ### Adult Census income Binary Classification
 We want to predict if the Income is greater or lower than 50K.
 - Designer
 - Create new Pipeline
 - Sample Data: Adult Census Income Binary Classification dataset
-
-
 <img src="images/s3/AdultCensusIncomeBinaryClassificationDataset.png" alt="Adult Census Income Binary Classification dataset" width="80%">
-
 <img src="images/s3/dataset-age.png" alt="age" width="50%">
+- Split Data
+    - Pipeline Interface
+    - click Split Data
 
+    <img src=" images\s3\split-data.png" alt="Split data" width="50%">
+    
+    - We set 70% (30% test data)
+
+
+   
+
+
+
+
+
+
+### Final Pipeline
 
 <img src="images/s3/adult-income-binary-pipeline.png" alt="Adult Income Binary Pipeline" width="90%">
 
