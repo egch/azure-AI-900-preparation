@@ -64,24 +64,32 @@ Azure ML Studio
 Pipeline: A ML pipeline is a workflow that is used to execute a ML task.
 
 
-### Adult Census income Binary Classification
+## Adult Census income Binary Classification
 We want to predict if the Income is greater or lower than 50K.
 - Designer
 - Create new Pipeline
 - Sample Data: Adult Census Income Binary Classification dataset
 <img src="images/s3/AdultCensusIncomeBinaryClassificationDataset.png" alt="Adult Census Income Binary Classification dataset" width="80%">
 <img src="images/s3/dataset-age.png" alt="age" width="50%">
-- Split Data
-    - Pipeline Interface
-    - click Split Data
+
+### Split Data
+- Pipeline Interface
+- click Split Data
 
     <img src=" images\s3\split-data.png" alt="Split data" width="50%">
     
-    - We set 70% (30% test data)
+- We set 70% (30% test data)
 
 
-   
 
+
+### Computer Instance
+ - Compute
+ - Standard_D11_v2
+  
+<img src="images/s3/compute-vm.png" alt="compute vm" width="50%">
+
+### Set Pipeline Job/experiment
 
 
 
