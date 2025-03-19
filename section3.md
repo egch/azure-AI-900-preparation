@@ -69,7 +69,9 @@ We want to predict if the Income is greater or lower than 50K.
 - Designer
 - Create new Pipeline
 - Sample Data: Adult Census Income Binary Classification dataset
+
 <img src="images/s3/AdultCensusIncomeBinaryClassificationDataset.png" alt="Adult Census Income Binary Classification dataset" width="80%">
+
 <img src="images/s3/dataset-age.png" alt="age" width="50%">
 
 ### Split Data
@@ -90,8 +92,14 @@ We want to predict if the Income is greater or lower than 50K.
 <img src="images/s3/compute-vm.png" alt="compute vm" width="50%">
 
 ### Set Pipeline Job/experiment
-
-
+TBD
+### Train the model
+TBD
+### Two-Class Logistic Regression
+TBD
+### Score Model
+TBD
+### Evaluate Model
 
 
 
@@ -99,14 +107,20 @@ We want to predict if the Income is greater or lower than 50K.
 
 <img src="images/s3/adult-income-binary-pipeline.png" alt="Adult Income Binary Pipeline" width="90%">
 
+### Submit the Job
+<img src="images/s3/job-running.png" alt="executing the job" width="70%">
 
-confusion matrix
-WIth the 30% of the test data we do not use use income column 
+
+
+### Evaluate Model Preview Data - Confusion Matrix
+Wth the 30% of the test data we do not use use income column 
 
 <img src="images/s3/confusion-matrix.png" alt="Confusion Matrix" width="50%">
 
 
 (TP + TN) / ALL
+
+## Endpoints
 
 ![endpoint](images/s3/endpoint.png)
 
