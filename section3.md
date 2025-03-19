@@ -68,7 +68,8 @@ Pipeline: A ML pipeline is a workflow that is used to execute a ML task.
 We want to predict if the Income is greater or lower than 50K.
 - Designer
 - Create new Pipeline
-- Sample Data: Adult Census Income Binary Classification dataset
+  
+### Sample Data: Adult Census Income Binary Classification dataset
 
 <img src="images/s3/AdultCensusIncomeBinaryClassificationDataset.png" alt="Adult Census Income Binary Classification dataset" width="80%">
 
@@ -118,7 +119,24 @@ Wth the 30% of the test data we do not use use income column
 <img src="images/s3/confusion-matrix.png" alt="Confusion Matrix" width="50%">
 
 
+- TP - True Positive (Predict >  50K, Actual > 50K)
+- FP - False Positive (Predict >  50K, Actual <=> 50K)
+- TN - True Negative (Predict <= 50K, Actual <= 50K)
+- FN - False Negative (Predict >= 50K, Actual > 50K)
+
+Accuracy = (TP+TN) / (TP+TN+FP+FN)
+​
+
+
+
 (TP + TN) / ALL
+
+### Trying with another algorithm
+Replacing _Two-Class Logistic Regression_ algorithm with _Two-Class Boosted Decision Tree_
+
+Then submit the job and comparing the results.
+With this new algorithm the accuracy is better than before.
+
 
 ## Endpoints
 
