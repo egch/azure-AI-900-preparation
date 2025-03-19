@@ -120,9 +120,9 @@ Wth the 30% of the test data we do not use use income column
 
 
 - TP - True Positive (Predict >  50K, Actual > 50K)
-- FP - False Positive (Predict >  50K, Actual <=> 50K)
+- FP - False Positive (Predict >  50K, Actual <= 50K)
 - TN - True Negative (Predict <= 50K, Actual <= 50K)
-- FN - False Negative (Predict >= 50K, Actual > 50K)
+- FN - False Negative (Predict <= 50K, Actual > 50K)
 
 Accuracy = (TP+TN) / (TP+TN+FP+FN)
 ​
