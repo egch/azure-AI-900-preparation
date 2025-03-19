@@ -127,10 +127,6 @@ Wth the 30% of the test data we do not use use income column
 Accuracy = (TP+TN) / (TP+TN+FP+FN)
 ​
 
-
-
-(TP + TN) / ALL
-
 ### Trying with another algorithm
 Replacing _Two-Class Logistic Regression_ algorithm with _Two-Class Boosted Decision Tree_
 
