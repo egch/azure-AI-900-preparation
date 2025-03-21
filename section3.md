@@ -148,7 +148,7 @@ With this new algorithm the accuracy is better than before.
 <img src="images/s3/endpoint.png" alt="Endpoints" width="50%">
 
 
-## Regrerssion Model
+## Regression Model
 automobiles-pipeline
 
 automobile_price_raw
@@ -161,7 +161,20 @@ The column normalized-losses has 41 missing values.
 
 We need to clean our data by selecting ony columns with consistent data. 
 
-Select columns in dataset.
+
+- Automobile price row
+- Clean Missing data 1, 2
+- Split Data (70% - 30%)
+- Train Model
+- Linear Regression (algorithm)
+- Score Model
+
+### Final Pipeline
+
+<img src="images\s3\regression-model-final-pipeline.png" alt="final pipeline" width="50%"  />
+
+
+
 
 ## Summary
 - Regression
