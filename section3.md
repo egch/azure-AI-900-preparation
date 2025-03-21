@@ -144,9 +144,24 @@ With this new algorithm the accuracy is better than before.
 
 - create Kubernetes cluster (AksCompute)
 
-## Endpoints
+### Endpoints
+<img src="images/s3/endpoint.png" alt="Endpoints" width="50%">
 
-![endpoint](images/s3/endpoint.png)
+
+## Regrerssion Model
+automobiles-pipeline
+
+automobile_price_raw
+
+<img src="images\s3\AdultCensusIncomeBinaryClassificationDataset.png" alt="automobile-price-data" width="50%">
+
+The column normalized-losses has 41 missing values.
+
+<img src="images\s3\missing-value.png" alt="missing values" width="30%"  />
+
+We need to clean our data by selecting ony columns with consistent data. 
+
+Select columns in dataset.
 
 ## Summary
 - Regression
