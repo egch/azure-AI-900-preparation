@@ -174,6 +174,10 @@ We need to clean our data by selecting ony columns with consistent data.
 <img src="images\s3\regression-model-final-pipeline.png" alt="final pipeline" width="50%"  />
 
 
+### Submit pipeline job
+<img src="images\s3\pipeline-job.png" alt="submit pipeline job" width="50%"  />
+
+
 
 
 ## Summary
