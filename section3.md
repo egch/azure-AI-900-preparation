@@ -133,6 +133,16 @@ Replacing _Two-Class Logistic Regression_ algorithm with _Two-Class Boosted Deci
 Then submit the job and comparing the results.
 With this new algorithm the accuracy is better than before.
 
+### Pipeline deployment
+- Jobs
+- select a Job
+- Create Inference Pipeline
+- Real Time Inference Pipeline
+  
+
+<img src="images/s3/real-time-inference-pipeline.png" alt="Real Time Inference Pipeline" width="50%">
+
+- create Kubernetes cluster (AksCompute)
 
 ## Endpoints
 
