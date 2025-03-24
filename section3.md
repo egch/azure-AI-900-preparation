@@ -177,8 +177,18 @@ We need to clean our data by selecting ony columns with consistent data.
 ### Submit pipeline job
 <img src="images\s3\pipeline-job.png" alt="submit pipeline job" width="50%"  />
 
-
-
+## Using your own dataset
+- ML Workspace
+- Data
+- Data Asset / Create
+- Upload file from Udemy course. [EventdataTraining](csv/EventdataTraining.csv)
+- Automated ML / new Automated ML job
+- Select task type: Classification
+- Target column*: SecurityEvent
+- Select compute type: Serverless
+- Submit Training job
+- We cancel the job after 25' (approximately)
+- It evaluates different algorithms.
 
 ## Summary
 - Regression
