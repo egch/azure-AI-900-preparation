@@ -2,13 +2,16 @@
 Azure Computer Vision
 
 ## ComputerVision
+From Marketplace create Computer Vision resource.
+
 https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview
 ### Create Computer Vision
 <img src="images/s4/create-computer-vision.png" alt="Create Computer Vision" width="50%">    
 
-Go to Vision Studio.
+The click on **Go to Vision Studio**.   
+Alternative we can use _Azure AI Foundry_.
 
-Behind the scenes, Visual Studio calls the Azure AI Vision service
+Behind the scenes, Visual Studio calls the Azure AI Vision service.
 
 
 
@@ -16,6 +19,10 @@ Behind the scenes, Visual Studio calls the Azure AI Vision service
 Image Analysis / Extract common tags from images
 
 <img src="images/s4/extract-common-tags.png" alt="Extract common tags" width="50%">
+
+For each tag it provides a confidence code (0-100%).
+
+We can also see the json contents.
 
 ### Add captions to images
 Image Analysis / Add captions to images
