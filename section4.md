@@ -41,23 +41,36 @@ Note the bounded rectangle on the images.
 
 
 ### Extract text from images
-Optical character recognition / Extract text from images
+Optical character recognition / Extract text from images.
+
 <img src="images/s4/extract-text-from-image.png" alt="extract text from image" width="70%">
 
-### API Vision Service
+## API Vision Service
+
+
 [docs](https://learn.microsoft.com/en-us/rest/api/computervision/image-analysis/analyze-image?view=rest-computervision-v4.0-preview%20(2023-04-01)&tabs=HTTP)
 
-#### POST
-https://egch-vision.cognitiveservices.azure.com/computervision/imageanalysis:analyze?api-version=2023-04-01-preview&features=tags
+### Analyze Image
+
+<img src="images/s4/computer-vision-endpoint.png" alt="computer vision endpoint" width="70%">
+
+### POST
+URL: https://egch-vision.cognitiveservices.azure.com/computervision/imageanalysis:analyze?api-version=2023-04-01-preview&features=tags
+
+In the Body, change the type to binary, then upload a file.
+
 
 #### Headers
-Headers
+- **Ocp-Apim-Subscription-Key**: corresponding to the key of `computervision` in Azure
+- **Content-Type**: application/octet-stream
 
-**Ocp-Apim-Subscription-Key**: corresponding to the key of `computervision` in Azure
-
-### Analyze Image
-<img src="images/s4/postman-analyze-image.png" alt="postman-analyze-image" width="70%">
 <img src="images/s4/postman-analyze-image-headers.png" alt="postman-analyze-image-headers" width="70%">
+
+
+
+### Response
+<img src="images/s4/postman-analyze-image.png" alt="postman-analyze-image" width="70%">
+
 
 ## Custom Vision
 Create from Azure Marketplace.
