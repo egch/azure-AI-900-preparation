@@ -67,29 +67,35 @@ In the Body, change the type to binary, then upload a file.
 <img src="images/s4/postman-analyze-image-headers.png" alt="postman-analyze-image-headers" width="70%">
 
 
-
 ### Response
 <img src="images/s4/postman-analyze-image.png" alt="postman-analyze-image" width="70%">
 
 
 ## Custom Vision
-Create from Azure Marketplace.
-https://www.customvision.ai/
+Create from Azure Marketplace.   
+
+<img src="images\s4\create-custom-vision.png" alt="custom vision" width="70%">
+
+[custom vision](https://www.customvision.ai/)
+
 ### Project Cats recognition
+From custom vision portal, once authenticated, create a new project.
 <img src="images/s4/cats.png" alt="cats" width="70%">
 
-- add
+- add 10 images with tags (cute, cat)
 - train
-- quick train
+- quick training
 
 <img src="images/s4/cats-train.png" alt="cats-train" width="70%">
+Then click on publish.
 
 Quick test (tiger)
 
 <img src="images/s4/cats-tiger.png" alt="cats-train" width="70%">
 
 ## Azure AI Face service
-https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview-identity
+
+[Azure AI Face service](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview-identity)
 
 Create Face from the marketplace.
 ## AI Face service
@@ -99,7 +105,7 @@ Create Face from the marketplace.
 <img src="images/s4/detect-face.png" alt="detect face" width="70%">
 
 ### Face detection via postman
-https://learn.microsoft.com/en-us/rest/api/face/face-detection-operations/detect?view=rest-face-v1.2-preview.1&tabs=HTTP
+POST URL: https://learn.microsoft.com/en-us/rest/api/face/face-detection-operations/detect?view=rest-face-v1.2-preview.1&tabs=HTTP
 
 <img src="images/s4/face-postman.png" alt="postman face" width="70%">
 
