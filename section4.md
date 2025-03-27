@@ -111,22 +111,30 @@ POST URL: https://learn.microsoft.com/en-us/rest/api/face/face-detection-operati
 
 
 ## Document Intelligence
+Marketplace / Search 'Document Intelligence' / Document Intelligence (form recognizer) / Create   
+
 [Document Intelligence Studio](https://documentintelligence.ai.azure.com/studio/)
 ### Invoices
-Studio / Invoices
+Document Intelligence Studio / Invoices
 
 <img src="images/s4/invoices.png" alt="invoices" width="70%">
 
 ## Azure AI Foundry
 [Azure AI Foundry docs](https://learn.microsoft.com/en-us/azure/ai-studio/what-is-ai-studio)
 
-- MarketPlace / Azure AI Foundry
+So whatever we are done using the different user interfaces early on, such as Vision Studio, the Document Intelligence Studio, we can do everything from Azure AI Foundry itself.
+
+### Create a Project
+
+- MarketPlace / Azure AI Foundry / Create
 
 - Launch Azure AI Foundry
 
 - Create Project
 
 ### Project - Common image detection
+From the project:
+
 AI Services / Vision + Document / Image / Common image detection
 
 From here we have the same interfaces seen with Visual Studio.
