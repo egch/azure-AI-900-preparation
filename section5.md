@@ -15,8 +15,9 @@
  - Key phrase extraction
  - Custom question answering
 
+ Marketplace / Language service / Create
+
 ### Key phrase extraction
-Marketplace / Language service / Create
 
 [azure language cognitive](https://language.cognitive.azure.com/)
 
@@ -27,9 +28,11 @@ Original sentence: _"This hotel is a great place. The staff were friendly and he
 <img src="images\s5\text-extraction.png" alt="Text extraction" width="75%">
 
 #### Postman
+##### Headers
 1. Ocp-Apim-Subscription-Key
-
 2. Content-Type - application/json
+
+URL (POST): `https://egch-language2.cognitiveservices.azure.com/language/:analyze-text?api-version=2022-05-01`
 
 
 <img src="images\s5\postman-text-extraction.png" alt="postman - Text extraction" width="75%">
