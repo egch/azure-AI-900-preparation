@@ -1,0 +1,73 @@
+{
+    "kind": "EntityRecognitionResults",
+    "results": {
+        "documents": [
+            {
+                "id": "1",
+                "entities": [
+                    {
+                        "text": "Ai-900",
+                        "category": "Product",
+                        "offset": 20,
+                        "length": 6,
+                        "confidenceScore": 0.67
+                    },
+                    {
+                        "text": "certification",
+                        "category": "Skill",
+                        "offset": 27,
+                        "length": 13,
+                        "confidenceScore": 0.62
+                    },
+                    {
+                        "text": "as",
+                        "category": "DateTime",
+                        "offset": 41,
+                        "length": 2,
+                        "confidenceScore": 0.67
+                    },
+                    {
+                        "text": "as possible",
+                        "category": "DateTime",
+                        "offset": 49,
+                        "length": 11,
+                        "confidenceScore": 0.65
+                    }
+                ],
+                "warnings": []
+            },
+            {
+                "id": "2",
+                "entities": [
+                    {
+                        "text": "Pasqua",
+                        "category": "DateTime",
+                        "subcategory": "Date",
+                        "offset": 2,
+                        "length": 6,
+                        "confidenceScore": 0.83
+                    },
+                    {
+                        "text": "Spinea",
+                        "category": "Location",
+                        "subcategory": "City",
+                        "offset": 17,
+                        "length": 6,
+                        "confidenceScore": 0.87
+                    },
+                    {
+                        "text": "Italia",
+                        "category": "Location",
+                        "subcategory": "CountryRegion",
+                        "offset": 28,
+                        "length": 6,
+                        "confidenceScore": 0.92
+                    }
+                ],
+                "warnings": []
+            }
+        ],
+        "errors": [],
+        "modelVersion": "2025-02-01"
+    }
+}

@@ -34,6 +34,8 @@ Original sentence: _"This hotel is a great place. The staff were friendly and he
 
 URL (POST): `https://egch-language2.cognitiveservices.azure.com/language/:analyze-text?api-version=2022-05-01`
 
+ "kind": `KeyPhraseExtractionResults`
+
 
 <img src="images\s5\postman-text-extraction.png" alt="postman - Text extraction" width="75%">
 
@@ -43,7 +45,13 @@ Language Studio / Classify Text / Detect Language
 <img src="images\s5\language-detection.png" alt="Language Detection" width="50%">
 
 #### Postman
+
+Same headers, url, body (almos) but this time the Kind is different.
+
+ "kind": `LanguageDetection`
+
 <img src="images/s5/postman-language-detection.png" alt="postman - Language Detection" width="50%">
+
 
 ### Sentiment Analysis
 Language Studio / Classify Text / Analyze sentiment and opinions
@@ -51,6 +59,10 @@ Language Studio / Classify Text / Analyze sentiment and opinions
 <img src="images/s5/sentiment-analysis.png" alt="Sentiment Analysis" width="50%">
 
 #### Postman
+Same headers, url, body (almost) but this time the Kind is different.
+
+ "kind": `SentimentAnalysis`
+
 <img src="images/s5/postman-sentiment-analysis.png" alt="Postman Sentiment Analysis" width="50%">
 
 ### Named Entity Recognition
@@ -58,6 +70,14 @@ Language Studio / Extract Information/ Extract named entities
 <img src="images/s5/named-entities.png" alt="named entities" width="50%">
 
 #### Postman
+Same headers, url, body (almost) but this time the Kind is different.
+
+ "kind": `EntityRecognition`
+
+ [request](json/NamedEntityRecognition_request.json)
+
+ [response](json/NamedEntityRecognition_response.json)
+ 
 <img src="images/s5/postman-named-entities.png" alt="Postman - named entities" width="50%">
 
 

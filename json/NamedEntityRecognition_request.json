@@ -1,0 +1,20 @@
+{
+    "kind": "EntityRecognition",
+    "parameters": {
+        "modelVersion": "latest"
+    },
+    "analysisInput":{
+        "documents":[
+            {
+            "id": "1",
+ 	    "language":"en", 
+            "text": "I want to pass this Ai-900 certification as soon as possible"
+            },
+            {
+            "id": "2",
+            "language":"it",  		
+            "text": "A Pasqua torno a Spinea, in Italia"
+            }
+        ]
+    }
+}
