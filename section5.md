@@ -76,9 +76,9 @@ Same headers, url, body (almost) but this time the Kind is different.
 
  "kind": `EntityRecognition`
 
- [request](json/NamedEntityRecognition_request.json)
+ [request](json/s5/NamedEntityRecognition_request.json)
 
- [response](json/NamedEntityRecognition_response.json)
+ [response](json/s5/NamedEntityRecognition_response.json)
  
 <img src="images/s5/postman-named-entities.png" alt="Postman - named entities" width="50%">
 
@@ -96,9 +96,9 @@ Headers:
 
 URL (POST): `https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&from=en&to=it`
 
- [request](json/translator_request.json)
+ [request](json/s5/translator_request.json)
 
- [response](json/translatore_response.json)
+ [response](json/s5/translatore_response.json)
 
 
 ## Azure Speech
@@ -116,19 +116,51 @@ Launch `Speech Studio`
 
 <img src="images/s5/speech_studio_captioning.png" alt="speech studio captioning" width="50%">
 
-### Postman
+#### Postman
 URL (POST):`https://eastus.stt.speech.microsoft.com/speech/recognition/conversation/cognitiveservices/v1?language=en-US&format=detailed`
 
 Headers:
 1. Ocp-Apim-Subscription-Key
 2. Content-Type - audio/wav
 
+### Text to Speech
+Get the all possible voices available.
+URL(GET): `https://eastus.tts.speech.microsoft.com/cognitiveservices/voices/list`
 
+[list voices json](json/s5/speech_voices_available.json)
 
+Now to produce the resulting audio:
+URL(POST): `https://eastus.tts.speech.microsoft.com/cognitiveservices/v1`
 
+Headers:
+1. Ocp-Apim-Subscription-Key
+2. Content-Type - application/ssml+xml
+3. X-Microsoft-OutputFormat - audio-16khz-128kbitrate-mono-mp3
 
+[request xml](xml/s5/request-test-to-speech.xml)
+
+[response audio](audio/s5/text-to-speech.mp3)
 
 ## Azure AI Language
+### Questions and Answers
+
 ### Search Service
+Marketplace / Azure AI Search / Create
+
+Language Service / Resource Management / Features / pairing with search service.
+
+<img src="images/s5/lnguage-service-pairing-search-service.png" alt="pairing language with search" width="50%">
+
+- Launch Language Studio / Understand questions and Conversational language / Custom question answering / Create new project.
+
+- Edit kowledge base / Add question&answer (as many as you want)
+
+- Deploy Knowledge Base / Prediction URL
+
+#### Postman
+<img src="images/s5/q&a-postman.png" alt="Q&A" width="50%">
+
+
+
 ---
 [Home](README.md)
