@@ -68,6 +68,7 @@ Same headers, url, body (almost) but this time the Kind is different.
 
 ### Named Entity Recognition
 Language Studio / Extract Information/ Extract named entities
+
 <img src="images/s5/named-entities.png" alt="named entities" width="50%">
 
 #### Postman
