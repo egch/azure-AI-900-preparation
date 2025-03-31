@@ -1,6 +1,12 @@
 # section 6 - Generative AI workloads for Azure
 ## Large Language Models - LLM
+**LLM (Large Language Model)**
+
+A type of artificial intelligence trained on massive amounts of text to understand and generate human-like language.
 ### Chat GPT
+GPT - Generative pre-trained transformer.
+
+ChatGPT is a generative AI chatbot developed by OPenAI. Currently based on GPT-4 language model.
 ### Github Copilot
 ## OpenAI platform
 [OpenAI developer platform](https://platform.openai.com/docs/overview)
