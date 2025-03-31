@@ -160,7 +160,14 @@ Language Service / Resource Management / Features / pairing with search service.
 #### Postman
 <img src="images/s5/q&a-postman.png" alt="Q&A" width="50%">
 
+#### Importing from data sources
+Language Studio / prj / add sources / Add chit chat
 
+<img src="images\s5\chitchat.png" alt="chit chat questions" width="50%">
+
+#### Creating a boot
+- Language SAtudio/ prj/ Deploy knowledge base/ create a boot
+- Link the boot to the key of your Azure language instance.
 
 ---
 [Home](README.md)
