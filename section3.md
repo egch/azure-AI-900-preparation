@@ -79,7 +79,7 @@ We want to predict if the Income is greater or lower than 50K.
 - Pipeline Interface
 - click Split Data
 
-    <img src=" images\s3\split-data.png" alt="Split data" width="50%">
+    <img src="images/s3/split-data.png" alt="Split data" width="50%">
     
 - We set 70% (30% test data)
 
