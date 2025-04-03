@@ -6,8 +6,14 @@ A type of artificial intelligence trained on massive amounts of text to understa
 ### Chat GPT
 GPT - Generative pre-trained transformer.
 
-ChatGPT is a generative AI chatbot developed by OPenAI. Currently based on GPT-4 language model.
+ChatGPT is a generative AI chatbot developed by OpenAI. Currently based on GPT-4 language model.
 ### Github Copilot
+- github account
+- github copilot: Let's use the free version.
+- Download vs code
+- Extensions / GitHub Copilot
+- 
+
 ## OpenAI platform
 [OpenAI developer platform](https://platform.openai.com/docs/overview)
 

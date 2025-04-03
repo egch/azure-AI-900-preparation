@@ -25,7 +25,7 @@ Extract Information / Extract key phrases.
 
 Original sentence: _"This hotel is a great place. The staff were friendly and helpful. The view of the sea was amazing."_
 
-<img src="images\s5\text-extraction.png" alt="Text extraction" width="75%">
+<img src="images/s5/text-extraction.png" alt="Text extraction" width="75%">
 
 #### Postman
 Headers:
@@ -38,16 +38,16 @@ URL (POST): `https://egch-language2.cognitiveservices.azure.com/language/:analyz
  "kind": `KeyPhraseExtractionResults`
 
 
-<img src="images\s5\postman-text-extraction.png" alt="postman - Text extraction" width="75%">
+<img src="images/s5/postman-text-extraction.png" alt="postman - Text extraction" width="75%">
 
 ### Language Detection
 Language Studio / Classify Text / Detect Language
 
-<img src="images\s5\language-detection.png" alt="Language Detection" width="50%">
+<img src="images/s5/language-detection.png" alt="Language Detection" width="50%">
 
 #### Postman
 
-Same headers, url, body (almos) but this time the Kind is different.
+Same headers, url, body (almost) but this time the Kind is different.
 
  "kind": `LanguageDetection`
 
@@ -98,7 +98,7 @@ URL (POST): `https://api.cognitive.microsofttranslator.com/translate?api-version
 
  [request](json/s5/translator_request.json)
 
- [response](json/s5/translatore_response.json)
+ [response](json/s5/translator_response.json)
 
 
 ## Azure Speech
@@ -149,11 +149,11 @@ Marketplace / Azure AI Search / Create
 
 Language Service / Resource Management / Features / pairing with search service.
 
-<img src="images/s5/lnguage-service-pairing-search-service.png" alt="pairing language with search" width="50%">
+<img src="images/s5/language-service-pairing-search-service.png" alt="pairing language with search" width="50%">
 
 - Launch Language Studio / Understand questions and Conversational language / Custom question answering / Create new project.
 
-- Edit kowledge base / Add question&answer (as many as you want)
+- Edit knowledge base / Add question & answer (as many as you want)
 
 - Deploy Knowledge Base / Prediction URL
 
@@ -163,10 +163,10 @@ Language Service / Resource Management / Features / pairing with search service.
 #### Importing from data sources
 Language Studio / prj / add sources / Add chit chat
 
-<img src="images\s5\chitchat.png" alt="chit chat questions" width="50%">
+<img src="images/s5/chitchat.png" alt="chit chat questions" width="50%">
 
-#### Creating a boot
-- Language SAtudio/ prj/ Deploy knowledge base/ create a boot
+#### Creating a bot
+- Language Studio/ prj/ Deploy knowledge base/ create a bot
 - Link the boot to the key of your Azure language instance.
 
 ---
