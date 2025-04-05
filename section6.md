@@ -17,6 +17,9 @@ ChatGPT is a generative AI chatbot developed by OpenAI. Currently based on GPT-4
 ## OpenAI platform
 [OpenAI developer platform](https://platform.openai.com/docs/overview)
 
+- Buy some credit
+- Generate API Keys
+
 
 ### Signup
 ### Tokens
