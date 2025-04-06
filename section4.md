@@ -86,7 +86,7 @@ From custom vision portal, once authenticated, create a new project.
 - train
 - quick training
 
-<img src="images/s4/cats-train.png" alt="cats-train" width="70%">
+<img src="images/s4/cats-train.png" alt="cats-train" width="70%">   
 Then click on publish.
 
 Quick test (tiger)
@@ -95,10 +95,19 @@ Quick test (tiger)
 
 ## Azure AI Face service
 
-[Azure AI Face service](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview-identity)
 
-Create Face from the marketplace.
-## AI Face service
+[What is Azure Face Service](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview-identity)
+
+### Face recognition operations
+- Identification – Determine who a person is by comparing their face against a known database. Face identification can address "one-to-many" matching of one face in an image to a set of faces in a secure repository.
+
+- Verification – Confirm if two face images belong to the same person. The verification operation answers the question, "Do these two faces belong to the same person?".
+
+- Find Similar Faces – Retrieve faces from a collection that closely resemble a given input face. he Find Similar operation does face matching between a target face and a set of candidate faces, finding a smaller set of faces that look similar to the target face. This is useful for doing a face search by image.
+
+- Group Faces – Automatically cluster faces that appear to belong to the same person or share strong visual similarities. The Group operation divides a set of unknown faces into several smaller groups based on similarity. 
+
+### Create Face
 - Marketplace create Face
 - Vision Studio / Face / Detect faces in an image
 
