@@ -9,6 +9,11 @@ This repository captures my journey studying for the Microsoft Azure AI Fundamen
 - [Section 5](section5.md)
 - [Section 6](section6.md)
 
+## Practice Tests
+- [Topics to review](review.md)
+
+ - [Test Activity](test-activity.md)
+
 
 ## Resources
 - [Udemy Course by A. Rodrigues](https://www.udemy.com/course/microsoft-azure-beginners-guide/)
