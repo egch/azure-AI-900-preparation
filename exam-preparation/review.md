@@ -26,4 +26,4 @@ Feature vs Label
 [Object detection feature](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/concept-object-detection)
 
 ---
-[Home](README.md)
+[Home](../README.md)

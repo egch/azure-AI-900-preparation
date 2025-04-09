@@ -9,10 +9,11 @@ This repository captures my journey studying for the Microsoft Azure AI Fundamen
 - [Section 5](section5.md)
 - [Section 6](section6.md)
 
-## Practice Tests
-- [Topics to review](review.md)
-
- - [Test Activity](test-activity.md)
+## Exams Preparation
+- [Topics to review](exam-preparation/review.md)
+- [Doubts](exam-preparation/doubts.md)
+- [Activity](exam-preparation/activity.md)
+- [Test Activity](exam-preparation/test-activity.md)
 
 
 ## Resources
