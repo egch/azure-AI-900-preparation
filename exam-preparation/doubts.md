@@ -33,6 +33,27 @@ A. A function that maps inputs to outputs based on learned weights
 Q. What are the two types of Azure AI service resources?
 A. Multi-service and single-service
 
+Q. What does a single layer of pixel values in an image represent?
+A. Grayscale image
+
+Q. Which machine learning model architecture is commonly used in computer vision for image classification?
+A. Convolutional Neural Networks (CNNs)
+
+Q. What is the purpose of Azure AI Vision's Read API?
+A. Extract machine-readable text from images, PDFs, and TIFF files
+
+
+Q. Which of the following techniques is used to determine the most commonly used words in a document?
+A. Frequency analysis
+
+
+Q. What is an utterance in conversational language understanding?
+A. An example of something a user might say that the application must interpret
+
+
+
+
+
 
 ## Various
 - Difference between Azure AI Speech & Azure AI Language
@@ -47,6 +68,9 @@ A. Multi-service and single-service
 - Azure OpenAI service
 - multiclass classification
 - clustering in machine learning
+- Fundamentals of Computer Vision
+
+
 
 
 ---
