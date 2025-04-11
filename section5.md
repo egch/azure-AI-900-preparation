@@ -144,7 +144,7 @@ Headers:
 ## Azure AI Language
 ### Questions and Answers
 
-### Search Service
+### Using with Search Service
 Marketplace / Azure AI Search / Create
 
 Language Service / Resource Management / Features / pairing with search service.
@@ -168,6 +168,7 @@ Language Studio / prj / add sources / Add chit chat
 #### Creating a bot
 - Language Studio/ prj/ Deploy knowledge base/ create a bot
 - Link the boot to the key of your Azure language instance.
+
 
 ---
 [Home](README.md)
