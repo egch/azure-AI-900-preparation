@@ -120,6 +120,8 @@ POST URL: https://learn.microsoft.com/en-us/rest/api/face/face-detection-operati
 
 
 ## Document Intelligence
+> Azure AI Document Intelligence is a cloud-based service that uses machine learning and OCR to extract structured data—such as text, tables, and key-value pairs—from various documents like invoices, receipts, and contracts. It offers both prebuilt and customizable models to automate document processing workflows. 
+
 Marketplace / Search 'Document Intelligence' / Document Intelligence (form recognizer) / Create   
 
 [Document Intelligence Studio](https://documentintelligence.ai.azure.com/studio/)

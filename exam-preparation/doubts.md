@@ -50,6 +50,20 @@ A. Frequency analysis
 Q. What is an utterance in conversational language understanding?
 A. An example of something a user might say that the application must interpret
 
+Q. What is the purpose of a skillset in Azure AI Search?
+A. To apply a sequence of AI skills to enrich data
+
+Q.  What is the default search syntax for queries in Azure AI Search?
+A. Simple query syntax
+
+Q. What is the role of attention layers in transformer models?
+A. To evaluate the semantic relationships between tokens
+
+Q. Which layer of a generative AI solution focuses on the construction of prompts submitted to the model?
+A. The metaprompt and grounding layer
+
+
+
 
 
 
@@ -57,6 +71,8 @@ A. An example of something a user might say that the application must interpret
 
 ## Various
 - Difference between Azure AI Speech & Azure AI Language
+  
+>Azure AI Speech focuses on processing spoken language, offering features like speech-to-text, text-to-speech, and speech translation. In contrast, Azure AI Language deals with written text, providing capabilities such as sentiment analysis, entity recognition, and text summarization. 
 - AI Document Intelligence
 - Indexer , index , search engine
 - search index 
@@ -69,6 +85,9 @@ A. An example of something a user might say that the application must interpret
 - multiclass classification
 - clustering in machine learning
 - Fundamentals of Computer Vision
+- Azure AI Search
+- Azure OpenAI Studio
+- Prompt engineering
 
 
 
