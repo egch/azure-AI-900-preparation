@@ -1,6 +1,6 @@
 # section 6 - Generative AI workloads for Azure
 ## Large Language Models - LLM
-**LLM (Large Language Model)**
+
 
 A type of artificial intelligence trained on massive amounts of text to understand and generate human-like language.
 ### Chat GPT

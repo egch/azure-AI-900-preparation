@@ -70,16 +70,14 @@ A. The metaprompt and grounding layer
 
 
 ## Various
-- Difference between Azure AI Speech & Azure AI Language
-  
->Azure AI Speech focuses on processing spoken language, offering features like speech-to-text, text-to-speech, and speech translation. In contrast, Azure AI Language deals with written text, providing capabilities such as sentiment analysis, entity recognition, and text summarization. [DONE]
-- AI Document Intelligence [DONE]
-- Indexer , index , search engine [IN PROGRESS]
-- search index 
-- real definition and knowledge of LLM
-- generative AI
-- vector-based embeddings?
-- Feature, label
+- Difference between Azure AI Speech & Azure AI Language ✅
+- AI Document Intelligence ✅
+- Indexer , index , search engine ✅
+- search index ✅
+- real definition and knowledge of LLM ✅
+- generative AI ✅
+- vector-based embeddings?  ✅
+- Feature, label ✅
 - Natural language processing
 - Azure OpenAI service
 - multiclass classification

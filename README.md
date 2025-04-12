@@ -9,11 +9,19 @@ This repository captures my journey studying for the Microsoft Azure AI Fundamen
 - [Section 5](section5.md)
 - [Section 6](section6.md)
 
+## Complementary Contents
+- [Complementary Contents](ComplementaryContents.md)
+- [Azure AI Search](ai-search.md)
+
 ## Exam Preparation
 - [Topics to review](exam-preparation/review.md)
 - [Doubts](exam-preparation/doubts.md)
 - [Activity](exam-preparation/activity.md)
 - [Test Activity](exam-preparation/test-activity.md)
+
+
+## Acknowledgements
+This project includes content generated with the help of ChatGPT by OpenAI.
 
 
 ## Resources
