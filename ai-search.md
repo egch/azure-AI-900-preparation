@@ -51,3 +51,6 @@ Each field can be:
 ### Resources
 
 [How to make your data searchable with Azure Search and AI | Azure Tips and Tricks](https://www.youtube.com/watch?v=OQDRNQD1LDk)
+
+---
+[Home](README.md)
