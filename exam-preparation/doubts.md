@@ -1,16 +1,16 @@
 # Doubts
 ## Questions
 Q. When might you see NaN returned for a score in language detection?
-A. When the language is ambiguous
+A. When the language is ambiguous  ✅
 
 Q. You want to create a knowledge base for your organization’s bot service. Which Azure AI service is best suited to creating a knowledge base?
-A. Question Answering
+A. Question Answering ✅
 
 Q. You are authoring a conversational language understanding application to support an international clock. You want users to be able to ask for the current time in a specified city, for example "What is the time in London?". What should you do?
-A. Define a "city" entity and a "GetTime" intent with utterances that indicate the city entity.
+A. Define a "city" entity and a "GetTime" intent with utterances that indicate the city entity. ✅
 
 Q. Which data format is accepted by Azure AI Search when you're pushing data to the index?
-A. JSON
+A. JSON ✅
 
 Q. What is the process called when a machine learning model calculates an output value based on one or more input values?
 A. Inference
@@ -62,7 +62,8 @@ A. To evaluate the semantic relationships between tokens
 Q. Which layer of a generative AI solution focuses on the construction of prompts submitted to the model?
 A. The metaprompt and grounding layer
 
-
+### Explanation
+[Q & A Clarified](clarified-Q&A.md)
 
 
 
