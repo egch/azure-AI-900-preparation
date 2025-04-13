@@ -1,4 +1,5 @@
 # section 5 - Natural Language Processor (NLP)
+> NLP (Natural Language Processing) is a field of computer science and artificial intelligence that focuses on enabling computers to understand, interpret, and generate human language in a way that's both meaningful and useful.
 ## Services
  - Key Phrase Extraction
  - Entity Recognition

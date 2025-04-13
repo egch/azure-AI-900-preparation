@@ -60,6 +60,35 @@ In machine learning, we use **features** as inputs and try to predict the **labe
 ## Difference between Azure AI Speech & Azure AI Language
 Azure AI Speech focuses on processing spoken language, offering features like speech-to-text, text-to-speech, and speech translation. In contrast, Azure AI Language deals with written text, providing capabilities such as sentiment analysis, entity recognition, and text summarization
 
+## 🧠 Azure AI Foundry vs ✅ Azure OpenAI Service
+
+### ✅ Azure OpenAI Service
+- **Purpose**: Direct access to OpenAI models (like GPT-4, Codex, DALL·E) through Azure.
+- **Use Case**: Integrate LLMs into apps, chatbots, automation, etc.
+- **Access**: Create a **resource** in Azure and call it via REST API or SDK.
+- **Control**: You manage model deployment, tokens, prompts, and API calls.
+- **Best for**: Developers who want precise control and flexibility.
+
+---
+
+### 🧠 Azure AI Foundry
+- **Purpose**: A **higher-level platform** (currently in preview) to **build, customize, and manage GenAI applications** easily.
+- **Use Case**: Build GenAI apps, integrate your data, evaluate performance, manage workflows.
+- **Access**: Comes with tools like **Prompt Flow**, **Model Catalog**, **Data Grounding**, and **RAG**.
+- **Best for**: Teams or enterprises building complex GenAI solutions without coding everything from scratch.
+
+---
+
+### 🔁 Summary Table
+
+| Feature              | Azure OpenAI Service           | Azure AI Foundry                         |
+|---------------------|--------------------------------|------------------------------------------|
+| **Main Focus**       | Model access & usage           | GenAI app-building platform              |
+| **Control Level**    | Low-level (API-based)          | High-level (workflow & app builder)      |
+| **Data Integration** | Manual                         | Built-in tools (e.g. RAG)                |
+| **Target Users**     | Developers                     | Data scientists, AI teams, architects    |
+
+
 
 ---
 [Home](README.md)

@@ -2,6 +2,9 @@
 Azure Computer Vision
 
 ## ComputerVision
+> Azure Computer Vision is service that uses AI to analyze images and videos, allowing you to extract information like objects, text, faces, and scene descriptions.
+
+It helps developers build apps that can "see" and understand visual content.
 From Marketplace create Computer Vision resource.
 
 https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview

@@ -78,13 +78,13 @@ A. The metaprompt and grounding layer
 - generative AI ✅
 - vector-based embeddings?  ✅
 - Feature, label ✅
-- Natural language processing
-- Azure OpenAI service
-- multiclass classification
-- clustering in machine learning
-- Fundamentals of Computer Vision
-- Azure AI Search
-- Azure OpenAI Studio
+- Natural language processing ✅
+- Azure OpenAI service ✅
+- multiclass classification  ✅
+- clustering in machine learning ✅
+- Fundamentals of Computer Vision  ✅
+- Azure AI Search ✅
+- Azure OpenAI Studio ✅
 - Prompt engineering
 
 

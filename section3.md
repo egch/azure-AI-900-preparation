@@ -30,9 +30,38 @@ Not all the transactions or the columns are needed to train your data model.
 - Anomaly Detection Algorithms
 - Time Series Algorithms
 - Clustering Algorithms
-  
+
+### Classification Algorithms
+> Multiclass classification is a type of machine learning task where the goal is to classify input data into one of three or more classes. Each data point is assigned to only one class from a set of multiple possible categories.
+
+For example, classifying emails as spam, social, or promotions is a multiclass classification task.
+
+There are two main types of classification problems:
+
+- Binary classification – only two classes (e.g., spam vs. not spam).
+
+- Multiclass classification – more than two possible classes (e.g., classifying animals as cat, dog, bird).
+
 
 [Machine learning algorithms](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-are-machine-learning-algorithms)
+
+### 📚 Clustering in Machine Learning 
+
+**Clustering** is an **unsupervised learning** technique in machine learning where the goal is to group similar data points into **clusters**, without using labeled data.
+
+Each cluster contains data points that are more similar to each other than to those in other clusters.
+
+---
+
+#### 🔍 Key points:
+- **Unsupervised**: No predefined labels or categories.
+- **Goal**: Discover hidden patterns or natural groupings.
+- **Examples**:
+  - Customer segmentation
+  - Document/topic grouping
+  - Image compression
+
+
 
 ### Learning Types
 - Supervised Learning - Task Driven (Predict next value)
