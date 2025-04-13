@@ -90,5 +90,13 @@ Azure AI Speech focuses on processing spoken language, offering features like sp
 
 
 
+## 🧠 Prompt Engineering
+
+**Prompt engineering** is the practice of designing and refining the text prompts given to a language model (like GPT) to get the most accurate, relevant, or creative outputs.
+
+It involves experimenting with **phrasing, structure, and context** to guide the model’s responses effectively.
+
+
+
 ---
 [Home](README.md)
