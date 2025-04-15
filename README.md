@@ -29,6 +29,7 @@ This project includes content generated with the help of ChatGPT by OpenAI.
 - [ML Algorithms](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-are-machine-learning-algorithms)
 - https://learn.microsoft.com/en-us/azure/machine-learning/component-reference/evaluate-model?view=azureml-api-2
 - https://learn.microsoft.com/en-us/rest/api/computervision/operation-groups?view=rest-computervision-v3.2
+- [MS Official Learning Modules](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification)
 
 ### Questions
 [Azure AI-900 Fundamentals Practice Questions](https://github.com/IsabellaS2/AI-900)

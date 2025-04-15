@@ -87,6 +87,7 @@ A. The metaprompt and grounding layer
 - Azure AI Search ✅
 - Azure OpenAI Studio ✅
 - Prompt engineering ✅
+- Azure AI Services
 
 
 
