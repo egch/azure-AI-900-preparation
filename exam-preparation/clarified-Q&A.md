@@ -86,9 +86,10 @@ Each document is represented as a **JSON object**, with key-value pairs matching
 
 ## Inference
 Q. What is the process called when a machine learning model calculates an output value based on one or more input values?
+
 A. Inference
 
-## ✅ Explanation:
+### ✅ Explanation:
 
 **Inference** is the process where a trained machine learning model is used to **make predictions** or **generate outputs** based on **new input data**.
 
@@ -104,6 +105,7 @@ Inference is the process that a trained machine learning model* uses to draw con
 
 ## Mean Absolute Error (MAE)
 Q. What evaluation metric is commonly used for evaluating a regression model?
+
 A. Mean Absolute Error (MAE)
 
 ### ✅ Explanation:
@@ -131,6 +133,7 @@ MAE gives you an idea of **how wrong** the predictions are **on average**, in th
 
 ##  F1 score
 Q. What evaluation metric is commonly used for evaluating a binary classification model?   
+
 A. F1 score
 
 ### ✅ Explanation:
@@ -151,6 +154,7 @@ The F1 Score helps you understand the balance between **false positives** and **
 
 ## Silhouette 
 Q. Which metric can be used to evaluate the quality of clusters?   
+
 A. Silhouette
 ### ✅ Explanation:
 
@@ -168,6 +172,7 @@ A **higher Silhouette Score** indicates that the clusters are **well separated a
 
 ## Deep Learning
 Q.  What is deep learning?   
+
 A. An advanced form of machine learning inspired by the human brain.
 
 ### ✅ Explanation:
@@ -181,6 +186,7 @@ Deep learning is especially powerful for tasks like **image recognition**, **nat
 
 ## Neural Network
 Q. What is a neural network?   
+
 A. A function that maps inputs to outputs based on learned weights.
 
 ### ✅ Explanation:
@@ -194,6 +200,7 @@ Neural networks **learn patterns** in data by updating weights through a process
 
 ## Azure Multi-service and Single-service
 Q. What are the two types of Azure AI service resources?  
+
 A. Multi-service and single-service
 
 ### ✅ Explanation:
@@ -208,6 +215,7 @@ Use **multi-service** for flexibility across services, and **single-service** fo
 
 ##  Grayscale image
 Q. What does a single layer of pixel values in an image represent?  
+
 A. Grayscale image
 
 ### ✅ Explanation:
