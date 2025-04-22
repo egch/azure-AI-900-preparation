@@ -114,12 +114,6 @@ A. Mean Absolute Error (MAE)
 
 It measures the **average absolute difference** between the predicted values and the actual values.
 
-### ✅ Explanation:
-
-**Mean Absolute Error (MAE)** is a commonly used metric to evaluate the performance of **regression models**.
-
-It measures the **average absolute difference** between the predicted values and the actual values.
-
 #### 📌 Formula (in plain text):
 MAE = (1/n) * Σ | yᵢ - ŷᵢ |
 
