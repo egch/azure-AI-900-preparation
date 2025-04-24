@@ -220,3 +220,133 @@ This forms a **grayscale image**, which does **not contain color**, only varying
 
 #### 🧠 Key point:
 Grayscale images are often used in computer vision tasks to **simplify processing** and **reduce computation**.
+
+
+## Convolutional Neural Networks (CNNs)
+
+Q. Which machine learning model architecture is commonly used in computer vision for image classification?
+
+A. Convolutional Neural Networks (CNNs)
+
+### ✅ Explanation:
+
+**Convolutional Neural Networks (CNNs)** are a specialized type of neural network designed for **processing image data**.
+
+They use **convolutional layers** to automatically detect features like edges, shapes, and textures, making them ideal for **image classification** tasks.
+
+#### 🧠 Key point:
+CNNs are highly effective in recognizing spatial hierarchies in images, and they form the backbone of most modern **computer vision** applications.
+
+## Azure AI Vision's Read API
+Q. What is the purpose of Azure AI Vision's Read API?
+
+A. Extract machine-readable text from images, PDFs, and TIFF files
+
+### ✅ Explanation:
+
+The **Azure AI Vision Read API** is designed to **analyze images and documents** to extract **printed and handwritten text** in a machine-readable format.
+
+It supports formats like:
+- **Images** (JPEG, PNG, etc.)
+- **PDF files**
+- **TIFF files**
+
+#### 🧠 Key point:
+The Read API enables **optical character recognition (OCR)**, which is essential for digitizing documents and automating text extraction from visual content.
+
+## Frequency analysis
+
+Q. Which of the following techniques is used to determine the most commonly used words in a document?
+
+A. Frequency analysis
+
+### ✅ Explanation:
+
+**Frequency analysis** is a technique used in **natural language processing (NLP)** to identify the **most commonly used words** in a document or text corpus.
+
+It works by **counting how often each word appears**, helping to uncover patterns, themes, or keywords.
+
+#### 🧠 Key point:
+Frequency analysis is often a first step in text analysis, useful for **summarization**, **keyword extraction**, and **text preprocessing**.
+
+## Utterance in conversational language understanding
+Q. What is an utterance in conversational language understanding?
+
+A. An example of something a user might say that the application must interpret.
+
+## ✅ Explanation:
+
+In **conversational language understanding** (like with chatbots or virtual assistants), an **utterance** is a **sentence or phrase** that a user speaks or types.
+
+It's an example of how a user might express an **intent**, which the application needs to **understand and process** correctly.
+
+#### 🧠 Key point:
+Utterances help train the model to recognize **varied ways** users might phrase the same **intent** (e.g., "What's the weather like?" vs "Is it going to rain today?").
+
+## Skillset in Azure AI Search
+Q. What is the purpose of a skillset in Azure AI Search?
+
+A. To apply a sequence of AI skills to enrich data
+### ✅ Explanation:
+
+In **Azure AI Search**, a **skillset** is a collection of **cognitive skills** that are applied to **extract and enrich information** from raw content (like documents, images, etc.).
+
+These skills can include:
+- OCR (optical character recognition)
+- Language detection
+- Entity recognition
+- Key phrase extraction
+
+#### 🧠 Key point:
+A skillset enables **AI enrichment**, allowing you to **transform unstructured data into searchable content**.
+
+## Queries in Azure AI Search
+Q.  What is the default search syntax for queries in Azure AI Search?
+
+A. Simple query syntax
+
+### ✅ Explanation:
+
+In **Azure AI Search**, the **default query syntax** is called **Simple query syntax**.
+
+It is designed to be:
+- **User-friendly**
+- Similar to how people search in web browsers
+- Supporting basic operations like `AND`, `OR`, `NOT`, and `*` (wildcard)
+
+#### 🧠 Key point:
+Simple query syntax is ideal for **end-user search boxes**, while **full Lucene syntax** can be used for more **advanced scenarios**.
+
+## Attention layers in transformer models
+Q. What is the role of attention layers in transformer models? 
+
+A. To evaluate the semantic relationships between tokens.
+### ✅ Explanation:
+
+In **transformer models**, **attention layers** allow the model to **focus on different parts of the input sequence** when processing each token.
+
+They help the model understand:
+- **Which words are important** in context
+- **How words relate** to each other, regardless of their position in the sequence
+
+#### 🧠 Key point:
+Attention layers enable transformers to capture **semantic meaning** and **contextual relationships**, making them highly effective in **natural language processing (NLP)** tasks.
+
+## The metaprompt and grounding layer
+Q. Which layer of a generative AI solution focuses on the construction of prompts submitted to the model?
+
+A. The metaprompt and grounding layer.
+
+### ✅ Explanation:
+
+The **metaprompt and grounding layer** in a **generative AI solution** is responsible for crafting and structuring the **prompts** that are sent to the model.
+
+This layer ensures that:
+- The prompts are **clear, specific, and aligned** with the task
+- Context and constraints (grounding) are included to guide the model's output
+
+#### 🧠 Key point:
+Effective prompt construction is essential for getting **reliable and relevant results** from a generative AI model.
+
+---
+[Home](../README.md)

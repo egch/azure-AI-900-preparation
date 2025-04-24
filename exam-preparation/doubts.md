@@ -1,33 +1,6 @@
 # Doubts
 ## Questions
 
-
-Q. Which machine learning model architecture is commonly used in computer vision for image classification?
-A. Convolutional Neural Networks (CNNs)
-
-Q. What is the purpose of Azure AI Vision's Read API?
-A. Extract machine-readable text from images, PDFs, and TIFF files
-
-
-Q. Which of the following techniques is used to determine the most commonly used words in a document?
-A. Frequency analysis
-
-
-Q. What is an utterance in conversational language understanding?
-A. An example of something a user might say that the application must interpret
-
-Q. What is the purpose of a skillset in Azure AI Search?
-A. To apply a sequence of AI skills to enrich data
-
-Q.  What is the default search syntax for queries in Azure AI Search?
-A. Simple query syntax
-
-Q. What is the role of attention layers in transformer models?
-A. To evaluate the semantic relationships between tokens
-
-Q. Which layer of a generative AI solution focuses on the construction of prompts submitted to the model?
-A. The metaprompt and grounding layer
-
 ### Explanation
 [Q & A Clarified](clarified-Q&A.md)
 
