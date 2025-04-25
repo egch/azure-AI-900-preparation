@@ -26,10 +26,10 @@
 - Azure AI Search ✅
 - Azure OpenAI Studio ✅
 - Prompt engineering ✅
-- Azure AI Services
-- In Azure Machine Learning, what is hyperparameter tuning?
-- What is the purpose of cross-validation in machine learning?
-- What is the purpose of feature scaling in machine learning?
+- Azure AI Services ✅
+- In Azure Machine Learning, what is hyperparameter tuning? ✅
+- What is the purpose of cross-validation in machine learning? ✅
+- What is the purpose of feature scaling in machine learning? ✅
 
 
 ---

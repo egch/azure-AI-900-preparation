@@ -96,6 +96,12 @@ Azure AI Speech focuses on processing spoken language, offering features like sp
 
 It involves experimenting with **phrasing, structure, and context** to guide the model’s responses effectively.
 
+## Azure AI Services
+ Azure AI Services are a suite of cloud-based APIs and tools provided by Microsoft to enable developers to integrate artificial intelligence capabilities into their applications. 
+ 
+ These services include vision, speech, language, decision, and search functionalities.
+ 
+<img src="images/various/azure-ai-services.png" alt="Azure AI Services" width="50%"  />
 
 
 ---

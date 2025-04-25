@@ -348,5 +348,69 @@ This layer ensures that:
 #### 🧠 Key point:
 Effective prompt construction is essential for getting **reliable and relevant results** from a generative AI model.
 
+
+## Hyperparameter tuning?
+The process of finding the best combination of hyperparameters to optimize model performance**
+
+---
+
+### ✅ Explanation:
+
+**Hyperparameter tuning** in **Azure Machine Learning** is the process of **automatically searching** for the best values of hyperparameters (like learning rate, batch size, number of trees, etc.) that improve a model’s **accuracy or performance**.
+
+Azure ML uses techniques like:
+- **Grid Search**
+- **Random Search**
+- **Bayesian Optimization**
+
+to efficiently explore the parameter space.
+
+#### 🧠 Key point:
+Hyperparameters are not learned by the model — they are set **before training**, and tuning them can **significantly improve** results.
+
+
+## What is the purpose of cross-validation in machine learning?
+
+To evaluate a model’s performance more reliably by testing it on multiple subsets of the data.
+
+---
+
+### ✅ Explanation:
+
+**Cross-validation** is a technique used to assess how well a machine learning model **generalizes** to unseen data.
+
+It works by:
+1. Splitting the dataset into **multiple folds** (e.g., 5 or 10 parts)
+2. Training the model on **some folds** and validating it on the **remaining one**
+3. Repeating the process multiple times, each time with a different validation fold
+4. Averaging the results for a more **robust estimate** of performance
+
+#### 🧠 Key point:
+Cross-validation helps reduce the risk of **overfitting** or **underfitting**, making model evaluation **more accurate and dependable**.
+
+
+## What is the purpose of feature scaling in machine learning?
+
+To normalize the range of independent variables so that models train more effectively.
+
+---
+
+### ✅ Explanation:
+
+**Feature scaling** is the process of transforming input features so that they have a **similar scale or distribution**.
+
+This is important for algorithms that are sensitive to the **magnitude** of input values, such as:
+- **K-Nearest Neighbors (KNN)**
+- **Support Vector Machines (SVM)**
+- **Gradient Descent–based models (e.g., Linear Regression, Neural Networks)**
+
+Common techniques include:
+- **Min-Max Scaling** (values between 0 and 1)
+- **Standardization** (mean = 0, standard deviation = 1)
+
+#### 🧠 Key point:
+Without feature scaling, models may perform poorly or converge slowly because features with larger ranges can **dominate** others.
+
+
 ---
 [Home](../README.md)
