@@ -1,7 +1,19 @@
 # Doubts
 ## Questions
 
-### Explanation
+### Fundamentals of conversational language understanding
+Q.  What is the None intent used for in conversational language understanding?   
+A. To handle utterances that do not match any other intent
+
+Q. What is an entity in conversational language understanding?
+A. An item to which an utterance refers
+
+
+
+
+
+
+## Explanation
 [Q & A Clarified](clarified-Q&A.md)
 
 
