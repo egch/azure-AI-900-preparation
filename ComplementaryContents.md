@@ -103,6 +103,59 @@ It involves experimenting with **phrasing, structure, and context** to guide the
  
 <img src="images/various/azure-ai-services.png" alt="Azure AI Services" width="50%"  />
 
+## Azure AI Studio(s)
+
+
+Here are the main Azure AI Studios currently available:
+
+### 1. [Azure AI Vision Studio](https://portal.vision.cognitive.azure.com/)
+For building, testing, and deploying computer vision models, including:
+- Object detection
+- OCR
+- Image analysis
+- Custom models
+
+### 2. [Azure AI Language Studio](https://language.cognitive.azure.com/)
+For natural language processing tasks such as:
+- Entity recognition
+- Sentiment analysis
+- Key phrase extraction
+- Translation
+- Summarization
+- Custom text classification
+
+### 3. [Azure AI Speech Studio](https://speech.microsoft.com/)
+For speech-related AI tasks, including:
+- Speech-to-text
+- Text-to-speech
+- Custom voice models
+- Speech translation
+
+### 4. [Azure AI Search Studio](https://portal.azure.com/#view/Microsoft_Azure_Search/SearchExtensionBlade)
+For building and managing search experiences powered by AI:
+- Full-text search
+- Semantic search
+- Cognitive search with AI enrichment
+
+### 5. [Azure AI Studio](https://ai.azure.com/)
+A unified studio for:
+- Prompt engineering
+- Retrieval-Augmented Generation (RAG)
+- Copilot development
+- Integration with other Azure AI services
+
+### 6. [Azure Machine Learning Studio](https://ml.azure.com/)
+For data science and ML engineering:
+- Training and deploying ML models
+- MLOps pipelines
+- Experiment tracking
+- Model registry
+- Notebooks and AutoML
+
+---
+
+**Note:**  
+Microsoft is consolidating many GenAI and applied AI tools into **Azure AI Studio**. However, **Azure Machine Learning Studio** remains distinct for traditional ML workflows and deeper MLOps requirements.
 
 ---
 [Home](README.md)
