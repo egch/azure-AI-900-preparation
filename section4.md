@@ -7,6 +7,8 @@ Azure Computer Vision
 It helps developers build apps that can "see" and understand visual content.
 From Marketplace create Computer Vision resource.
 
+The service formerly known as Azure Computer Vision has been renamed to **Azure AI Vision**. 
+
 https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview
 ### Create Computer Vision
 <img src="images/s4/create-computer-vision.png" alt="Create Computer Vision" width="50%">    
@@ -75,11 +77,13 @@ In the Body, change the type to binary, then upload a file.
 
 
 ## Custom Vision
-Create from Azure Marketplace.   
+**Azure Custom Vision** is a service that lets you build, deploy, and improve custom image classifiers. It allows users to train models with their own images and tags for specific object recognition tasks.
+
+MarketPlace / custom vision / Create
 
 <img src="images\s4\create-custom-vision.png" alt="custom vision" width="70%">
 
-[custom vision](https://www.customvision.ai/)
+[custom vision portal](https://www.customvision.ai/)
 
 ### Project Cats recognition
 From custom vision portal, once authenticated, create a new project.
