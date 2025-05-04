@@ -152,6 +152,9 @@ For data science and ML engineering:
 - Model registry
 - Notebooks and AutoML
 
+### 7. [Azure Document Intelligence Studio](https://documentintelligence.ai.azure.com/studio/)
+
+
 ---
 
 **Note:**  
