@@ -113,6 +113,8 @@ Quick test (tiger)
 ### Create Face
 - Marketplace create Face
 - Vision Studio / Face / Detect faces in an image
+- [Vision Studio](https://portal.vision.cognitive.azure.com/gallery/featured)
+
 
 <img src="images/s4/detect-face.png" alt="detect face" width="70%">
 
