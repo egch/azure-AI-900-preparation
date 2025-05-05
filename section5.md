@@ -16,11 +16,12 @@
  - Key phrase extraction
  - Custom question answering
 
- Marketplace / Language service / Create
+ - Marketplace / Language service / Create
+ - [Language Studio](https://language.cognitive.azure.com/)
 
 ### Key phrase extraction
 
-[azure language cognitive](https://language.cognitive.azure.com/)
+
 
 Extract Information / Extract key phrases.
 
