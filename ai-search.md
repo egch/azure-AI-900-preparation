@@ -47,10 +47,14 @@ Each field can be:
 2. Upload documents – push data to index.
 
 3. Search – use full-text or filtered queries.
+4. 
+### azsearchstore
+[Generate a sample search app](https://azsearchstore.azurewebsites.net/azsearchgenerator/)
 
 ### Resources
 
 [How to make your data searchable with Azure Search and AI | Azure Tips and Tricks](https://www.youtube.com/watch?v=OQDRNQD1LDk)
+
 
 ---
 [Home](README.md)
