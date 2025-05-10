@@ -32,4 +32,6 @@ This project includes content generated with the help of ChatGPT by OpenAI.
 - [MS Official Learning Modules](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification)
 
 ### Questions
-[Azure AI-900 Fundamentals Practice Questions](https://github.com/IsabellaS2/AI-900)
+- [Azure AI-900 Fundamentals Practice Questions](https://github.com/IsabellaS2/AI-900)
+
+- [Microsoft AI-900 Questions](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa0w5dXV0emJCV3J1YXVoelR3YUUtUnBLcmJYd3xBQ3Jtc0tsekNHZUx2Vk96SWs4cjNnWWhwRnAwM0NTbEMzeDN5OElwVzFmUHFPSkNDckhUVlFwTy1uN0pnOGJsZ1lYMXQ3cjhmalNTZ2g5aDd2dTFSTTVGeUQ0R0xjZlVJSVV4VnhKaWpJQXM1Unc0eEVTLWNKTQ&q=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fcredentials%2Fcertifications%2Fazure-ai-fundamentals%2Fpractice%2Fassessment%3Fassessment-type%3Dpractice%26assessmentId%3D26%26practice-assessment-type%3Dcertification&v=KF8B_wZzmes)

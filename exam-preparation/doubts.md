@@ -8,6 +8,9 @@ A. To handle utterances that do not match any other intent
 Q. What is an entity in conversational language understanding?
 A. An item to which an utterance refers
 
+Q. Real Time inference vs Batch Inference, target.
+A. AKS for RTI, computer instance for BI
+
 
 
 
