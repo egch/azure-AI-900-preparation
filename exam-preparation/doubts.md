@@ -25,6 +25,7 @@ A. AKS for RTI, computer instance for BI
 
 
 ## Various
+
 - Difference between Azure AI Speech & Azure AI Language ✅
 - AI Document Intelligence ✅
 - Indexer , index , search engine ✅
@@ -45,7 +46,15 @@ A. AKS for RTI, computer instance for BI
 - In Azure Machine Learning, what is hyperparameter tuning? ✅
 - What is the purpose of cross-validation in machine learning? ✅
 - What is the purpose of feature scaling in machine learning? ✅
-
+- Semantic segmentation ✅
+- Azure AI Bot Service ✅
+- Data Mining ✅
+- DALL-E ✅
+- Embeddings can search, classify, and compare sources of text for similarity.
+- Speech Service, Translator Service.
+- Personally Identifiable Information (PII) detection
+- Azure AI Custom Translator
+- Logistic Regression
 
 ---
 [Home](../README.md)
