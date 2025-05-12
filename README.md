@@ -2,12 +2,12 @@
 This repository captures my journey studying for the Microsoft Azure AI Fundamentals (AI-900) exam. It includes my personal notes, practice questions, and hands-on exercises to reinforce key AI concepts and help others prepare effectively.
 
 ## Chapters
-- [Section 1](section1.md)
-- [Section 2](section2.md)
-- [Section 3](section3.md)
-- [Section 4](section4.md)
-- [Section 5](section5.md)
-- [Section 6](section6.md)
+- [Section 1](main/section1.md)
+- [Section 2](main/section2.md)
+- [Section 3](main/section3.md)
+- [Section 4](main/section4.md)
+- [Section 5](main/section5.md)
+- [Section 6](main/section6.md)
 
 ## Complementary Contents
 - [Complementary Contents](ComplementaryContents.md)

@@ -7,4 +7,4 @@
 - Azure Portal
 - Creating a resource
 ---
-[Home](README.md)
+[Home](../README.md)

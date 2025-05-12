@@ -4,14 +4,6 @@
 ### Fundamentals of conversational language understanding
 
 
-Q. Which two prebuilt models allow you to use the Azure AI Document Intelligence service to scan information from international passports and sales accounts? Each correct answer presents part of the solution.
-
-A. ID document model / invoice model [MS](https://learn.microsoft.com/training/modules/analyze-receipts-form-recognizer/)
-
-
-Q. What is the first step in the statistical analysis of terms in a text in the context of natural language processing (NLP)?
-A. removing stop words
-
 Q. Which part of speech synthesis in natural language processing (NLP) involves breaking text into individual words such that each word can be assigned phonetic sounds?
 A. tokenization [MS](https://learn.microsoft.com/training/modules/recognize-synthesize-speech/)
 

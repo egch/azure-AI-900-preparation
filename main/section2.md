@@ -32,4 +32,4 @@
 [Microsoft Responsible AI Principles](https://techcommunity.microsoft.com/discussions/azure-ai-services/microsoft-responsible-ai-principles/4037307)
 
 ---
-[Home](README.md)
+[Home](../README.md)

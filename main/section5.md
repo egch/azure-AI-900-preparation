@@ -175,4 +175,4 @@ Language Studio / prj / add sources / Add chit chat
 
 
 ---
-[Home](README.md)
+[Home](../README.md)

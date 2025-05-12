@@ -171,4 +171,4 @@ AI Services / Vision + Document / Document / Invoices
 [Azure AI Vision - Training Module](https://learn.microsoft.com/en-gb/training/modules/analyze-images-computer-vision/3-image-analysis-azure)
 
 ---
-[Home](README.md)
+[Home](../README.md)
