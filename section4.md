@@ -9,7 +9,7 @@ From Marketplace create Computer Vision resource.
 
 The service formerly known as Azure Computer Vision has been renamed to **Azure AI Vision**. 
 
-https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview
+
 ### Create Computer Vision
 <img src="images/s4/create-computer-vision.png" alt="Create Computer Vision" width="50%">    
 
@@ -165,6 +165,10 @@ From here we have the same interfaces seen with Visual Studio.
 AI Services / Vision + Document / Document / Invoices
 ## Links
 [Azure Portal Vision Cognitive](https://portal.vision.cognitive.azure.com/gallery/featured)
+
+[What is Azure AI Vision?](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview)
+
+[Azure AI Vision - Training Module](https://learn.microsoft.com/en-gb/training/modules/analyze-images-computer-vision/3-image-analysis-azure)
 
 ---
 [Home](README.md)

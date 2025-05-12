@@ -412,5 +412,83 @@ Common techniques include:
 Without feature scaling, models may perform poorly or converge slowly because features with larger ranges can **dominate** others.
 
 
+## What is the **None** intent used for in conversational language understanding?
+
+To handle utterances that do not match any other intent** ✅
+
+---
+
+### Explanation
+
+The **"None" intent** (also known as the **Fallback** or **Default** intent) is used to catch user input that doesn't clearly match any of the predefined intents in a conversational application.
+
+#### Example
+If your chatbot has intents like:
+- `OrderPizza`
+- `CheckOrderStatus`
+
+And the user says:
+> *"Tell me a joke"*
+
+This utterance doesn't match any known intent, so it is classified under the **"None"** intent.
+
+#### Purpose
+- Prevents the bot from giving irrelevant or incorrect responses.
+- Allows the bot to handle unexpected input gracefully (e.g., "Sorry, I didn’t understand that. Can you rephrase?").
+
+## What is an entity in conversational language understanding?
+An item to which an utterance refers.
+
+---
+
+### Explanation
+
+In conversational language understanding, an **entity** is a specific piece of information referenced in a user's utterance. Entities help extract **key details** that provide context and meaning to the intent.
+
+#### Example
+User says:
+> *"Book a table for two at 7 PM."*
+
+Possible entities:
+- `"two"` → **number of people**
+- `"7 PM"` → **time**
+
+#### Purpose
+- Enables the system to capture and process relevant data from user input.
+- Works alongside intents to fulfill user requests accurately.
+
+## Real-time inference vs Batch inference.
+
+AKS for RTI, Computer Instance for BI
+
+---
+
+### Explanation
+
+- **Real-time inference (RTI)** → Use **Azure Kubernetes Service (AKS)** for low-latency, scalable predictions.
+- **Batch inference (BI)** → Use **Azure Machine Learning Compute Instances/Clusters** to process large datasets periodically.
+
+
+## Which artificial intelligence (AI) technique serves as the foundation for modern image classification solutions?
+Deep learning
+
+---
+
+### Explanation
+
+Modern image classification is primarily powered by **deep learning**, especially **convolutional neural networks (CNNs)**. These models automatically learn to extract features from images, enabling high accuracy in tasks like object detection, face recognition, and image tagging.
+
+
+## Which two specialized domain models are supported by Azure AI Vision?
+Celebrities and Landmarks
+
+---
+
+Azure AI Vision includes built-in models to recognize:
+- **Celebrities**
+- **Landmarks**
+
+
+
 ---
 [Home](../README.md)
