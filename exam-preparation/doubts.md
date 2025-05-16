@@ -4,19 +4,6 @@
 ### Fundamentals of conversational language understanding
 
 
-Q. Which part of speech synthesis in natural language processing (NLP) involves breaking text into individual words such that each word can be assigned phonetic sounds?
-A. tokenization [MS](https://learn.microsoft.com/training/modules/recognize-synthesize-speech/)
-
-Q. When using the Azure AI Service for Language, what should you use to provide further information online about entities extracted from a text?
-A. entity linking [MS](https://learn.microsoft.com/azure/cognitive-services/language-service/entity-linking/overview)
-
-Q. What can search, classify, and compare sources of text for similarity?
-A. Embeddings
-
-
-Q. Which type of artificial intelligence (AI) workload provides the ability to classify individual pixels in an image depending on the object that they represent?
-A. semantic segmentation [MS](https://learn.microsoft.com/training/modules/get-started-ai-fundamentals/4-understand-computer-vision)
-
 Q. Which two artificial intelligence (AI) workload features are part of the Azure AI Vision service? 
 A. optical character recognition (OCR) / spatial analysis [MS](https://learn.microsoft.com/training/paths/explore-computer-vision-microsoft-azure/)
 

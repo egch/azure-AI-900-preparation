@@ -16,7 +16,9 @@ Imagine an image of a street with people and cars:
 - 🚗 Self-driving cars (understanding road scenes)
 - 🏥 Medical imaging (identifying organs or tumors)
 - 🛰️ Satellite imagery analysis
-- 🕶️ Augmented reality
+-  Augmented reality
+
+ [MS](https://learn.microsoft.com/training/modules/get-started-ai-fundamentals/4-understand-computer-vision)
 
 ## Azure AI Bot Service
 

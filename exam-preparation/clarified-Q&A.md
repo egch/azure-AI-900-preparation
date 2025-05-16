@@ -488,6 +488,28 @@ Azure AI Vision includes built-in models to recognize:
 - **Celebrities**
 - **Landmarks**
 
+## Q. Which part of speech synthesis in natural language processing (NLP) involves breaking text into individual words such that each word can be assigned phonetic sounds?
+
+**A.** Tokenization  
+Tokenization is a fundamental step in speech synthesis and other NLP tasks. It involves breaking down a block of text into individual units called tokens—typically words. This allows the system to analyze and process each word separately, making it possible to assign phonetic representations, apply pronunciation rules, and generate natural-sounding speech.
+
+[Learn more on Microsoft Docs](https://learn.microsoft.com/training/modules/recognize-synthesize-speech/)
+
+
+## Q. When using the Azure AI Service for Language, what should you use to provide further information online about entities extracted from a text?
+
+**A.** Entity Linking  
+Entity linking is the process of identifying entities mentioned in text and connecting them to relevant information sources, such as Wikipedia or other knowledge bases. This helps provide additional context and disambiguates entities that may have similar names.
+
+[Learn more on Microsoft Docs](https://learn.microsoft.com/azure/cognitive-services/language-service/entity-linking/overview)
+
+
+## Q. What can search, classify, and compare sources of text for similarity?
+
+**A.** Embeddings  
+Embeddings are numerical representations of text that capture the meaning and context of words, phrases, or entire documents. By converting text into vectors, embeddings enable systems to efficiently search, classify, and compare text based on semantic similarity rather than exact wording.
+
+[Learn more on Microsoft Docs](https://learn.microsoft.com/azure/search/vector-search-overview)
 
 
 ---
