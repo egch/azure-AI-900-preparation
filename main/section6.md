@@ -23,7 +23,6 @@ ChatGPT is a generative AI chatbot developed by OpenAI. Currently based on GPT-4
 - Generate API Keys
 
 
-### Signup
 ### Tokens
 [Tokenizer](https://platform.openai.com/tokenizer)
 
