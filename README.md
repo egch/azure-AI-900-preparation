@@ -16,7 +16,8 @@ This repository captures my journey studying for the Microsoft Azure AI Fundamen
 ## Exam Preparation
 - [Topics to review](exam-preparation/review.md)
 - [Doubts](exam-preparation/doubts.md)
-- [Activity](exam-preparation/activity.md)
+- [Machine Learning Q&A](exam-preparation/machine-learning-clarified.md)
+- [Computer Vision Q&A](exam-preparation/computer-vision-clarified.md)
 - [Test Activity](exam-preparation/test-activity.md)
 
 
