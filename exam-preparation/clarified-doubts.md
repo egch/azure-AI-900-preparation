@@ -1,24 +1,5 @@
 # Doubts Clarified
-## Semantic Segmentation
 
-**Semantic segmentation** is a type of image analysis in computer vision where each pixel in an image is classified into a specific category or class.
-
-### 🔍 What It Does
-It **labels each pixel** in the image with a class (e.g., sky, road, car, person). The result is a **segmented image** where regions belonging to the same object class are marked with the same label.
-
-### 📷 Example
-Imagine an image of a street with people and cars:
-- All pixels belonging to cars → labeled `"car"`
-- All pixels of the road → labeled `"road"`
-- All pixels of people → labeled `"person"`
-
-### 🧠 Use Cases
-- 🚗 Self-driving cars (understanding road scenes)
-- 🏥 Medical imaging (identifying organs or tumors)
-- 🛰️ Satellite imagery analysis
--  Augmented reality
-
- [MS](https://learn.microsoft.com/training/modules/get-started-ai-fundamentals/4-understand-computer-vision)
 
 ## Azure AI Bot Service
 

@@ -84,85 +84,11 @@ Each document is represented as a **JSON object**, with key-value pairs matching
 }
 ```
 
-## Inference
-Q. What is the process called when a machine learning model calculates an output value based on one or more input values?
-
-A. Inference
-
-### ✅ Explanation:
-
-**Inference** is the process where a trained machine learning model is used to **make predictions** or **generate outputs** based on **new input data**.
-
-- **Training**: The model learns patterns from historical data.
-- **Inference**: The model applies what it has learned to make predictions on unseen data.
-
-Inference is the process that a trained machine learning model* uses to draw conclusions from brand-new data.
-
-#### 🧠 Think of it like this:
-- **Training** = learning  
-- **Inference** = using what you learned
 
 
-## Mean Absolute Error (MAE)
-Q. What evaluation metric is commonly used for evaluating a regression model?
 
-A. Mean Absolute Error (MAE)
 
-### ✅ Explanation:
 
-**Mean Absolute Error (MAE)** is a commonly used metric to evaluate the performance of **regression models**.
-
-It measures the **average absolute difference** between the predicted values and the actual values.
-
-#### 📌 Formula (in plain text):
-MAE = (1/n) * Σ | yᵢ - ŷᵢ |
-
-Where:
-- yᵢ = actual value  
-- ŷᵢ = predicted value  
-- n = total number of predictions
-
-#### 🧠 Key point:
-MAE gives you an idea of **how wrong** the predictions are **on average**, in the **same units** as the target variable.
-
-##  F1 score
-Q. What evaluation metric is commonly used for evaluating a binary classification model?   
-
-A. F1 score
-
-### ✅ Explanation:
-
-The **F1 Score** is a widely used evaluation metric for **binary classification models**, especially when the classes are **imbalanced**.
-
-It is the **harmonic mean** of **precision** and **recall**, giving a balanced measure of both.
-
-#### 📌 Formula (in plain text):
-F1 Score = 2 * (Precision * Recall) / (Precision + Recall)
-
-Where:
-- **Precision** = True Positives / (True Positives + False Positives)  
-- **Recall** = True Positives / (True Positives + False Negatives)
-
-#### 🧠 Key point:
-The F1 Score helps you understand the balance between **false positives** and **false negatives**, making it useful when **both precision and recall are important**.
-
-## Silhouette 
-Q. Which metric can be used to evaluate the quality of clusters?   
-
-A. Silhouette
-### ✅ Explanation:
-
-The **Silhouette Score** is a metric used to evaluate the **quality of clusters** in clustering algorithms (like K-Means).
-
-It measures how similar a point is to its **own cluster** (cohesion) compared to **other clusters** (separation).
-
-#### 📌 Score range:
-- **+1** → well-clustered (clear separation)  
-- **0** → overlapping clusters  
-- **-1** → likely in the wrong cluster
-
-#### 🧠 Key point:
-A **higher Silhouette Score** indicates that the clusters are **well separated and dense**, making it a good indicator of clustering performance.
 
 ## Deep Learning
 Q.  What is deep learning?   
@@ -207,52 +133,10 @@ Azure AI offers two types of service resources for managing and accessing its ca
 #### 🧠 Key point:
 Use **multi-service** for flexibility across services, and **single-service** for more control or when you only need one capability.
 
-##  Grayscale image
-Q. What does a single layer of pixel values in an image represent?  
-
-A. Grayscale image
-
-### ✅ Explanation:
-
-A **single layer of pixel values** means each pixel is represented by **one value**, indicating its **intensity** — from black (0) to white (255).
-
-This forms a **grayscale image**, which does **not contain color**, only varying shades of gray.
-
-#### 🧠 Key point:
-Grayscale images are often used in computer vision tasks to **simplify processing** and **reduce computation**.
 
 
-## Convolutional Neural Networks (CNNs)
 
-Q. Which machine learning model architecture is commonly used in computer vision for image classification?
 
-A. Convolutional Neural Networks (CNNs)
-
-### ✅ Explanation:
-
-**Convolutional Neural Networks (CNNs)** are a specialized type of neural network designed for **processing image data**.
-
-They use **convolutional layers** to automatically detect features like edges, shapes, and textures, making them ideal for **image classification** tasks.
-
-#### 🧠 Key point:
-CNNs are highly effective in recognizing spatial hierarchies in images, and they form the backbone of most modern **computer vision** applications.
-
-## Azure AI Vision's Read API
-Q. What is the purpose of Azure AI Vision's Read API?
-
-A. Extract machine-readable text from images, PDFs, and TIFF files
-
-### ✅ Explanation:
-
-The **Azure AI Vision Read API** is designed to **analyze images and documents** to extract **printed and handwritten text** in a machine-readable format.
-
-It supports formats like:
-- **Images** (JPEG, PNG, etc.)
-- **PDF files**
-- **TIFF files**
-
-#### 🧠 Key point:
-The Read API enables **optical character recognition (OCR)**, which is essential for digitizing documents and automating text extraction from visual content.
 
 ## Frequency analysis
 
@@ -389,27 +273,7 @@ It works by:
 Cross-validation helps reduce the risk of **overfitting** or **underfitting**, making model evaluation **more accurate and dependable**.
 
 
-## What is the purpose of feature scaling in machine learning?
 
-To normalize the range of independent variables so that models train more effectively.
-
----
-
-### ✅ Explanation:
-
-**Feature scaling** is the process of transforming input features so that they have a **similar scale or distribution**.
-
-This is important for algorithms that are sensitive to the **magnitude** of input values, such as:
-- **K-Nearest Neighbors (KNN)**
-- **Support Vector Machines (SVM)**
-- **Gradient Descent–based models (e.g., Linear Regression, Neural Networks)**
-
-Common techniques include:
-- **Min-Max Scaling** (values between 0 and 1)
-- **Standardization** (mean = 0, standard deviation = 1)
-
-#### 🧠 Key point:
-Without feature scaling, models may perform poorly or converge slowly because features with larger ranges can **dominate** others.
 
 
 ## What is the **None** intent used for in conversational language understanding?
@@ -469,24 +333,7 @@ AKS for RTI, Computer Instance for BI
 - **Batch inference (BI)** → Use **Azure Machine Learning Compute Instances/Clusters** to process large datasets periodically.
 
 
-## Which artificial intelligence (AI) technique serves as the foundation for modern image classification solutions?
-Deep learning
 
----
-
-### Explanation
-
-Modern image classification is primarily powered by **deep learning**, especially **convolutional neural networks (CNNs)**. These models automatically learn to extract features from images, enabling high accuracy in tasks like object detection, face recognition, and image tagging.
-
-
-## Which two specialized domain models are supported by Azure AI Vision?
-Celebrities and Landmarks
-
----
-
-Azure AI Vision includes built-in models to recognize:
-- **Celebrities**
-- **Landmarks**
 
 ## Q. Which part of speech synthesis in natural language processing (NLP) involves breaking text into individual words such that each word can be assigned phonetic sounds?
 

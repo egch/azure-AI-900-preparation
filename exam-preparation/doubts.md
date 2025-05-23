@@ -4,12 +4,6 @@
 ### Fundamentals of conversational language understanding
 
 
-Q. Which two artificial intelligence (AI) workload features are part of the Azure AI Vision service? 
-A. optical character recognition (OCR) / spatial analysis [MS](https://learn.microsoft.com/training/paths/explore-computer-vision-microsoft-azure/)
-
-Q. You need to identify numerical values that represent the probability of humans developing diabetes based on age and body fat percentage.
-Which type of machine learning model should you use?
-A. logistic regression[MS](https://learn.microsoft.com/training/modules/fundamentals-machine-learning/)
 
 Q. For which two scenarios is the Universal Language Model used by the speech-to-text API optimized? Each correct answer presents a complete solution.
 A. conversational / dictation [ms](https://learn.microsoft.com/training/modules/recognize-synthesize-speech/2-get-started-azure) 
