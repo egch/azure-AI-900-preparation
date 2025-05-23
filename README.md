@@ -18,7 +18,13 @@ This repository captures my journey studying for the Microsoft Azure AI Fundamen
 - [Doubts](exam-preparation/doubts.md)
 - [Machine Learning Q&A](exam-preparation/machine-learning-clarified.md)
 - [Computer Vision Q&A](exam-preparation/computer-vision-clarified.md)
-- [Test Activity](exam-preparation/test-activity.md)
+- [AI workloads](exam-preparation/ai-workloads-clarified.md)
+- [Conversational AI](exam-preparation/conversational-AI-clarified.md)
+- [NLP](exam-preparation/NLP-clarified.md)
+
+
+### Tests
+[Test Activity](exam-preparation/test-activity.md)
 
 
 ## Acknowledgements

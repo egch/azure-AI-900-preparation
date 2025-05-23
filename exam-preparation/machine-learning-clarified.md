@@ -118,3 +118,58 @@ Which type of machine learning model should you use?**
 
 **Logistic regression** is a classification algorithm used to predict the probability of a binary outcome (e.g., diabetes: yes or no).  
 It models the relationship between input features (like age and body fat percentage) and the likelihood of a specific class using a sigmoid function to produce values between 0 and 1.
+
+---
+
+## What is the purpose of cross-validation in machine learning?
+
+To evaluate a model’s performance more reliably by testing it on multiple subsets of the data.
+
+---
+
+### ✅ Explanation:
+
+**Cross-validation** is a technique used to assess how well a machine learning model **generalizes** to unseen data.
+
+It works by:
+1. Splitting the dataset into **multiple folds** (e.g., 5 or 10 parts)
+2. Training the model on **some folds** and validating it on the **remaining one**
+3. Repeating the process multiple times, each time with a different validation fold
+4. Averaging the results for a more **robust estimate** of performance
+
+#### 🧠 Key point:
+Cross-validation helps reduce the risk of **overfitting** or **underfitting**, making model evaluation **more accurate and dependable**.
+
+---
+
+## Hyperparameter tuning?
+The process of finding the best combination of hyperparameters to optimize model performance**
+
+---
+
+### ✅ Explanation:
+
+**Hyperparameter tuning** in **Azure Machine Learning** is the process of **automatically searching** for the best values of hyperparameters (like learning rate, batch size, number of trees, etc.) that improve a model’s **accuracy or performance**.
+
+Azure ML uses techniques like:
+- **Grid Search**
+- **Random Search**
+- **Bayesian Optimization**
+
+to efficiently explore the parameter space.
+
+#### 🧠 Key point:
+Hyperparameters are not learned by the model — they are set **before training**, and tuning them can **significantly improve** results.
+
+--- 
+
+## Real-time inference vs Batch inference.
+
+AKS for RTI, Computer Instance for BI
+
+---
+
+### Explanation
+
+- **Real-time inference (RTI)** → Use **Azure Kubernetes Service (AKS)** for low-latency, scalable predictions.
+- **Batch inference (BI)** → Use **Azure Machine Learning Compute Instances/Clusters** to process large datasets periodically.
