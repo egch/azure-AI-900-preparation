@@ -148,7 +148,7 @@ So whatever we are done using the different user interfaces early on, such as Vi
 
 - MarketPlace / Azure AI Foundry / Create
 
-- Launch Azure AI Foundry
+- Launch Azure AI Foundry [link](https://ai.azure.com)
 
 - Create Project
 
