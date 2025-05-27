@@ -100,3 +100,54 @@ The Azure AI Vision service includes powerful features such as:
 
 - **Optical Character Recognition (OCR)**: Automatically detects and extracts printed or handwritten text from images and documents.
 - **Spatial Analysis**: Interprets movement patterns and people presence in physical spaces using video feeds, useful for foot traffic analysis and safety monitoring.
+
+
+## Custom Vision service
+Q. You are planning on using the Custom Vision service. Do you need to provide your own images to train the model in Custom Vision? (Udemy)
+A. Yes - Yes, when you create a project in the Custom Vision service, you have to upload your own images to train the model.
+
+![Upload images on custom vision service](images/custom-vision-service.png)
+
+## Custom Vision service - faces
+Q. Your team is planning on using the Computer Vision service. Can you use the service to detect faces from images?
+
+A. Yes - Yes , this is possible with the Computer Vision service.
+
+For more information on the Computer Vision service, one can visit this [link](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/overview).
+
+
+## Object Detector
+
+Q. Your team is planning on using the Custom Vision service. They are going to build an object detector. Do you need to specify a domain when building the object detector?
+
+A. Yes ✅
+
+### Explanation:
+When using **Azure Custom Vision** to build an **object detector**, you **must specify a domain**.
+
+- Azure Custom Vision offers multiple domains optimized for different tasks (e.g., General, Retail, Landmarks).
+- For object detection, you need to select the **"Object Detection"** domain during project creation.
+- This ensures the model is trained with the appropriate architecture and capabilities to detect and localize multiple objects within images.
+
+For more information on the Custom Vision Service – Object detector, one can visit the below URL:
+
+https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/get-started-build-detector
+
+
+
+## Computer Vision: Face API Attributes
+
+**Q. Can you use the Face API to return face attributes such as headPose and occlusion?**  
+**A. Yes**  
+[Source: Microsoft Learn](https://learn.microsoft.com/azure/cognitive-services/face/face-api-how-to-topics/howtoanalyzefacesinimage)
+
+Azure **Face API** can analyze faces in an image and return detailed **facial attributes**, including:
+
+- **headPose** – direction the face is pointing (pitch, roll, yaw)
+- **occlusion** – whether facial features are covered (e.g., by glasses, hands)
+- As well as other features like age, gender, emotion, and facial landmarks.
+
+This is useful in applications like identity verification, emotion tracking, and facial analytics.
+
+
+

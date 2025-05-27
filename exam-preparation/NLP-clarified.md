@@ -65,3 +65,18 @@ Entity linking is the process of identifying entities mentioned in text and conn
 Embeddings are numerical representations of text that capture the meaning and context of words, phrases, or entire documents. By converting text into vectors, embeddings enable systems to efficiently search, classify, and compare text based on semantic similarity rather than exact wording.
 
 [Learn more on Microsoft Docs](https://learn.microsoft.com/azure/search/vector-search-overview)
+
+
+## NLP & Speech: Audio Translation with Azure Speech Service
+
+**Q. Can you use the Azure Speech service to translate an audio file content from one language to another?**  
+**A. Yes**  
+[Source: Microsoft Learn](https://learn.microsoft.com/azure/ai-services/speech-service/speech-translation)
+
+Azure Speech service supports **speech translation**, which:
+
+1. **Recognizes** spoken words from an audio file (speech-to-text)
+2. **Translates** the transcribed text into a different language (text-to-text)
+3. Optionally **synthesizes** the translation as speech (text-to-speech)
+
+It’s useful in real-time multilingual communication, subtitles, and global voice apps.
