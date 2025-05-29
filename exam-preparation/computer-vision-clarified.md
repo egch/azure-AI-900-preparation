@@ -149,5 +149,35 @@ Azure **Face API** can analyze faces in an image and return detailed **facial at
 
 This is useful in applications like identity verification, emotion tracking, and facial analytics.
 
+## Computer Vision: Face Matching with Azure Face API
+
+**Q. When using the Azure AI Face service, what should you use to perform one-to-many or one-to-one face matching?**  
+**A. Face Identification / Face Verification**  
+[Source: Microsoft Learn](https://learn.microsoft.com/training/modules/detect-analyze-faces/)
+
+Azure **Face API** supports two main face matching operations:
+
+- **Face Identification**:  
+  Performs **one-to-many** matching by comparing a detected face against a group of known faces to find the best match.
+
+- **Face Verification**:  
+  Performs **one-to-one** comparison to check if two faces belong to the same person.
+
+These features are useful for security, access control, and identity verification applications.
+
+
+## Computer Vision: Image Description Confidence Score
+
+**Q. Which additional piece of information is included with each phrase returned by an image description task of the Azure AI Vision?**  
+**A. Confidence score**  
+[Source: Microsoft Learn](https://learn.microsoft.com/training/modules/analyze-images-computer-vision/2-image-analysis-azure)
+
+When Azure AI Vision generates **image descriptions**, each phrase is accompanied by a **confidence score** — a numerical value between 0 and 1 indicating how likely the model believes the description is correct.
+
+Example:
+> Description: "A group of people standing on a beach"  
+> Confidence score: **0.89**
+
+This helps users assess the **reliability** of the AI-generated content.
 
 

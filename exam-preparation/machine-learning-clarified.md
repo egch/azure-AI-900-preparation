@@ -173,3 +173,27 @@ AKS for RTI, Computer Instance for BI
 
 - **Real-time inference (RTI)** → Use **Azure Kubernetes Service (AKS)** for low-latency, scalable predictions.
 - **Batch inference (BI)** → Use **Azure Machine Learning Compute Instances/Clusters** to process large datasets periodically.
+
+
+## Logistic Regression vs Linear Regression
+
+**Q. What is the difference between logistic regression and linear regression?**  
+**A. Linear regression is used for predicting continuous values, while logistic regression is used for classification tasks.**
+
+| Feature              | Linear Regression                  | Logistic Regression                          |
+|----------------------|-------------------------------------|-----------------------------------------------|
+| Purpose              | Predict numeric values              | Predict probability of a class                |
+| Output               | Real number                         | Value between 0 and 1 (interpreted as probability) |
+| Type of ML task      | Regression                          | Classification                                |
+
+
+Even though it has "regression" in the name, **logistic regression** is used for **classification tasks**.
+
+- ✅ Predicts probability of class membership
+- ✅ Commonly used for binary classification (e.g., spam vs. not spam)
+- ✅ Can be extended to multi-class classification (softmax/logistic regression)
+
+### Why the confusion?
+- It's called "regression" because it models the **log-odds** (a continuous value) as a **linear function** of the input features — but its **end goal** is classification.
+
+

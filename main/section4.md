@@ -101,7 +101,12 @@ Quick test (tiger)
 <img src="images/s4/cats-tiger.png" alt="cats-train" width="70%">
 
 ## Azure AI Face service
+### Learn Microsoft
 
+![alt text](images/s4/ai-face-ms.png)
+
+
+[Fundamentals of Facial Recognition](https://learn.microsoft.com/en-gb/training/modules/detect-analyze-faces/)
 
 [What is Azure Face Service](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview-identity)
 

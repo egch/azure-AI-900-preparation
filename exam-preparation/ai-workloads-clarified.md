@@ -168,3 +168,44 @@ This utterance doesn't match any known intent, so it is classified under the **"
 #### Purpose
 - Prevents the bot from giving irrelevant or incorrect responses.
 - Allows the bot to handle unexpected input gracefully (e.g., "Sorry, I didn’t understand that. Can you rephrase?").
+
+## Responsible AI: Accountability
+
+**Q. Which principle of responsible artificial intelligence (AI) defines the framework of governance and organization principles that meet ethical and legal standards of AI solutions?**  
+**A. Accountability**  
+[Source: Microsoft Learn](https://learn.microsoft.com/training/modules/get-started-ai-fundamentals/8-understand-responsible-ai)
+
+**Accountability** in responsible AI refers to ensuring that AI systems:
+
+- Comply with **ethical and legal standards**
+- Have clear **governance structures**
+- Include human oversight and traceability
+
+This principle ensures that organizations and individuals take **ownership and responsibility** for the behavior and outcomes of AI systems.
+
+
+## 🧠 Generative AI: System Messages
+
+### What is a System Message?
+
+A **system message** is a special instruction sent to a generative AI model **before any user input**.  
+It helps define the model’s **behavior, tone, and boundaries** during a conversation.
+
+---
+
+### ✅ Purpose of System Messages
+
+- Set the **role or persona** (e.g., helpful assistant, travel guide)
+- Establish **rules and constraints** (e.g., avoid legal advice)
+- Control **tone and response style** (e.g., formal, concise, friendly)
+- Maintain **conversation context** across turns
+
+---
+
+### 📦 Example Format
+
+```json
+[
+  {"role": "system", "content": "You are a friendly and concise travel assistant."},
+  {"role": "user", "content": "Where should I go for a beach vacation in October?"}
+]

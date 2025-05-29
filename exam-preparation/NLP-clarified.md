@@ -80,3 +80,17 @@ Azure Speech service supports **speech translation**, which:
 3. Optionally **synthesizes** the translation as speech (text-to-speech)
 
 It’s useful in real-time multilingual communication, subtitles, and global voice apps.
+
+
+## NLP: Universal Language Model in Speech-to-Text
+
+**Q. For which two scenarios is the Universal Language Model used by the speech-to-text API optimized?**  
+**A. Conversational / Dictation**  
+[Source: Microsoft Learn](https://learn.microsoft.com/training/modules/recognize-synthesize-speech/2-get-started-azure)
+
+The **Universal Language Model** in Azure’s **speech-to-text API** is optimized for:
+
+- **Conversational** speech — ideal for natural, back-and-forth dialogue, like interviews or meetings.
+- **Dictation** — optimized for clear, structured monologue, such as reading or medical note-taking.
+
+This helps improve transcription accuracy in common, real-world language scenarios.
