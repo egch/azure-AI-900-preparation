@@ -47,7 +47,7 @@ Each field can be:
 2. Upload documents – push data to index.
 
 3. Search – use full-text or filtered queries.
-4. 
+
 ### azsearchstore
 [Generate a sample search app](https://azsearchstore.azurewebsites.net/azsearchgenerator/)
 

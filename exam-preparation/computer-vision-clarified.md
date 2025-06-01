@@ -103,12 +103,12 @@ The Azure AI Vision service includes powerful features such as:
 
 
 ## Custom Vision service
-Q. You are planning on using the Custom Vision service. Do you need to provide your own images to train the model in Custom Vision? (Udemy)
+Q. You are planning on using the Custom Vision service. Do you need to provide your own images to train the model in Custom Vision? (Udemy)   
 A. Yes - Yes, when you create a project in the Custom Vision service, you have to upload your own images to train the model.
 
 ![Upload images on custom vision service](images/custom-vision-service.png)
 
-## Custom Vision service - faces
+## Computer Vision service - faces
 Q. Your team is planning on using the Computer Vision service. Can you use the service to detect faces from images?
 
 A. Yes - Yes , this is possible with the Computer Vision service.
