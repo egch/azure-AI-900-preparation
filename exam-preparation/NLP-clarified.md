@@ -133,3 +133,5 @@ Azure AI Speech provides multiple speech-related capabilities:
    - Enables the creation of conversational agents that use speech input/output.
 
 These features are useful in scenarios like call centers, personal assistants, authentication systems, and more.
+## Understand how language is processed
+![Tokenization](images/tokenization.png)
