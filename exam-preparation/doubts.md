@@ -40,7 +40,7 @@
 - Personally Identifiable Information (PII) detection
 - Azure AI Custom Translator
 - Logistic Regression ✅
-- Safety System
+- Safety System ✅
 - generative AI model: System messages ✅
 - Time-series forecasting [ms](https://learn.microsoft.com/training/modules/fundamentals-machine-learning/)
 

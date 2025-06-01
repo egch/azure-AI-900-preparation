@@ -209,3 +209,34 @@ It helps define the model’s **behavior, tone, and boundaries** during a conver
   {"role": "system", "content": "You are a friendly and concise travel assistant."},
   {"role": "user", "content": "Where should I go for a beach vacation in October?"}
 ]
+```
+
+## Responsible AI: Transparency
+
+**Q. Which principle of responsible artificial intelligence (AI) raises awareness about the limitations of AI-based solutions?**  
+**A. Transparency**  
+[Source: Microsoft Learn](https://learn.microsoft.com/training/modules/get-started-ai-fundamentals/8-understand-responsible-ai)
+
+**Transparency** involves making AI systems understandable to users and stakeholders.  
+It raises awareness of:
+
+- How decisions are made
+- What data is used
+- The **limitations** and boundaries of AI models
+
+This principle promotes **trust** and informed use of AI.
+
+
+## Responsible Generative AI: Safety System Layer
+
+**Q. At which layer can you apply content filters to suppress prompts and responses for a responsible generative AI solution?**  
+**A. Safety system**  
+[Source: Microsoft Learn](https://learn.microsoft.com/training/modules/get-started-ai-fundamentals/)
+
+The **safety system** layer applies **content filtering**, moderation, and risk mitigation techniques to:
+
+- Block harmful prompts or responses
+- Detect inappropriate or biased language
+- Enforce compliance and ethical standards
+
+This is a critical part of **building responsible AI solutions**, especially in public-facing applications.

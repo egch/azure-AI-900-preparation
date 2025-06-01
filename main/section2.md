@@ -27,7 +27,7 @@
 ## References
 [Accountability](https://www.carnegiecouncil.org/explore-engage/key-terms/ai-accountability#:~:text=Definition%20%26%20Introduction,be%20assigned%20to%20liable%20parties.)
 
-[Reliability and Safety](https://infusedinnovations.com/blog/responsible-ai-reliability-safety#:~:text=What%20is%20Reliability%20%26%20Safety%20in,the%20face%20of%20unexpected%20situations.)
+[Reliability and Safety](https://infusedinnovations.com/blog/responsible-ai-reliability-da#:~:text=What%20is%20Reliability%20%26%20Safety%20in,the%20face%20of%20unexpected%20situations.)
 
 [Microsoft Responsible AI Principles](https://techcommunity.microsoft.com/discussions/azure-ai-services/microsoft-responsible-ai-principles/4037307)
 

@@ -94,3 +94,42 @@ The **Universal Language Model** in Azure’s **speech-to-text API** is optimize
 - **Dictation** — optimized for clear, structured monologue, such as reading or medical note-taking.
 
 This helps improve transcription accuracy in common, real-world language scenarios.
+
+
+## NLP: Stemming for Word Normalization
+
+**Q. Which natural language processing (NLP) technique normalizes words before counting them?**  
+**A. Stemming**  
+[Source: Microsoft Learn](https://learn.microsoft.com/training/modules/analyze-text-with-azure-ai-language/)
+
+**Stemming** reduces words to their base or root form to enable more accurate counting and comparison.
+
+Example:
+- "Running", "runs", and "ran" → **"run"**
+
+This technique is used in:
+- **Keyword extraction**
+- **Search engines**
+- **Text classification**
+
+It improves performance by treating word variations as the same underlying term.
+
+
+## Azure AI Speech Service: Core Features
+
+**Q. Which three features are elements of the Azure AI Speech service?**  
+**A. Language identification / Speaker recognition / Voice assistants**  
+[Source: Microsoft Learn](https://learn.microsoft.com/azure/ai-services/speech-service/overview)
+
+Azure AI Speech provides multiple speech-related capabilities:
+
+1. **Language Identification**  
+   - Automatically detects the spoken language from audio input.
+
+2. **Speaker Recognition**  
+   - Identifies or verifies a speaker’s identity based on their voice.
+
+3. **Voice Assistants**  
+   - Enables the creation of conversational agents that use speech input/output.
+
+These features are useful in scenarios like call centers, personal assistants, authentication systems, and more.

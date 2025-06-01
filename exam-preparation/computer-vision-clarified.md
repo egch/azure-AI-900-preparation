@@ -181,3 +181,46 @@ Example:
 This helps users assess the **reliability** of the AI-generated content.
 
 
+
+## Computer Vision: Simplifying ML with Azure AI Vision
+
+**Q. Which three parts of the machine learning process does the Azure AI Vision eliminate the need for?**  
+**A. Training a model / Choosing a model / Evaluating a model**  
+[Source: Microsoft Learn](https://learn.microsoft.com/training/modules/analyze-images-computer-vision/)
+
+Azure AI Vision removes the need for several core steps in the traditional machine learning process:
+
+1. **Training a model** – Models are pretrained on large image datasets.
+2. **Choosing a model** – Azure handles model selection based on task (e.g., image tagging, OCR).
+3. **Evaluating a model** – Evaluation metrics and tuning are done internally, so you can use the model directly.
+
+This allows developers to apply computer vision without needing ML expertise.
+
+
+## Document Intelligence: Prebuilt Models for Data Extraction
+
+**Q. Which two Azure AI Document Intelligence models include identifying common data fields as part of its data extraction capabilities?**  
+**A. Business card model / Invoice model**  
+[Source: Microsoft Learn](https://learn.microsoft.com/training/modules/analyze-forms-document-intelligence/)
+
+Azure AI Document Intelligence provides prebuilt models that extract **key-value pairs** from documents with known layouts.
+
+### ✅ Prebuilt Models:
+- **Business Card Model**: Extracts contact info such as name, phone, email, and company.
+- **Invoice Model**: Extracts financial data like invoice ID, date, vendor, and amount due.
+
+These models save time by eliminating the need to train custom models for common document types.
+
+## Generative AI: DALL·E Capabilities
+
+**Q. Which capability is NOT supported by the DALL-E model?**  
+**A. Image description**  
+[Source: Microsoft Learn](https://learn.microsoft.com/training/modules/get-started-ai-fundamentals/6-understand-generative-ai)
+
+### DALL·E Capabilities:
+- ✅ Text-to-image generation
+- ✅ Inpainting (edit parts of an image)
+- ❌ Image-to-text description (this is handled by Azure AI Vision)
+
+If you need to **describe an image in words**, use **Azure AI Vision** or **image captioning models**, not DALL·E.
+
