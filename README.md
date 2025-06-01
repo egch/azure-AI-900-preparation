@@ -1,6 +1,12 @@
 # azure-AI-900-preparation
 This repository captures my journey studying for the Microsoft Azure AI Fundamentals (AI-900) exam. It includes my personal notes, practice questions, and hands-on exercises to reinforce key AI concepts and help others prepare effectively.
 
+## Credentials
+![AI-900](images/various/credentials.png)
+
+[MS Credentials](https://learn.microsoft.com/en-gb/users/enricogiurin-7522/credentials/d0afd3f22842de84?ref=https%3A%2F%2Fwww.linkedin.com%2F)
+
+
 ## Chapters
 - [Section 1](main/section1.md)
 - [Section 2](main/section2.md)
